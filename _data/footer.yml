@@ -1,4 +1,9 @@
 # Footer navigation links
 
-- title:
-  url:
+- title: "Built w/"
+  url: https://mmistakes.github.io/skinny-bones-jekyll/
+
+- title: "CH Robinson"
+  url: https://www.chrobinson.com
+    
+  
