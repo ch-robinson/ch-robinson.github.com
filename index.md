@@ -7,9 +7,9 @@ image:
 
 <div class="tiles">
 
-<div class="tile is-2">
+<div class="tile is-4">
   <h2 class="post-title"><a href="https://developer.chrobinson.com/">API Portal</a></h2>
-  <p class="post-excerpt">1Welcome to the API Portal.  The API Portal documents the rich API that customers can use to interact with the Navisphere Platform.</p>
+  <p class="post-excerpt">2Welcome to the API Portal.  The API Portal documents the rich API that customers can use to interact with the Navisphere Platform.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
