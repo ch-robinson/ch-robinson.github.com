@@ -44,7 +44,6 @@ image:
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
-
     <div class="row">
         <div class="medium-6 columns">
             {% for post in site.posts limit:1 %}
@@ -55,13 +54,7 @@ image:
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
             {% endfor %}
-        </div><!-- /.medium-5.columns -->
-
-
-         <div class="medium-6 columns">
-            <p><strong>{{ site.data.language.more_articles }}</strong></p>
-            {% include list-posts entries='3' offset='1' %}
-        </div><!-- /.medium-7.columns -->
+        </div>
     </div><!-- /.row -->
 {% endunless %}
 </div><!-- /.tile -->
