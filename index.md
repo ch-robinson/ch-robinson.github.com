@@ -25,7 +25,7 @@ image:
 <div class="tile is-4">
 {% unless site.posts == empty %}
 {% for post in site.posts limit:1 %}
-    <h2 class="post-title"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Blog - {{ post.title | escape_once }}"></a></h2>
+    <h2 class="post-title"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Blog - {{ post.title | escape_once }}">Blog - {{ post.title | escape_once }}</a></h2>
             <p>
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
             </p>
