@@ -9,15 +9,15 @@ image:
 
 <div class="tile is-4">
   <h2 class="post-title"><a href="https://developer.chrobinson.com/">API Portal</a></h2>
-  <p class="post-excerpt">2Welcome to the API Portal.  The API Portal documents the rich API that customers can use to interact with the Navisphere Platform.</p>
+  <p class="post-excerpt">3Welcome to the API Portal.  The API Portal documents the rich API that customers can use to interact with the Navisphere Platform.</p>
 </div><!-- /.tile -->
 
-<div class="tile">
+<div class="tile is-4">
   <h2 class="post-title"><a href="https://www.chrobinson.com/en-us/about-us/technology/">CH Robinson Technology</a></h2>
   <p class="post-excerpt">The rapid advancement of technology is transforming the way in which we live and do business. Supply chains are no exception. As your supply chain grows in both size and complexity, you need the best transportation management technology to gain a competitive advantage and exceed your customer expectations. That’s why we are invested in delivering and implementing flexible, efficient, and integrated technology solutions that connect all aspects of your supply chain.</p>
 </div><!-- /.tile -->
 
-<div class="tile">
+<div class="tile is-4">
   <h2 class="post-title"><a href="https://ch-robinson.github.com/">GitHub</a></h2>
   <p class="post-excerpt">Visit us on GitHub.</p>
 </div><!-- /.tile -->
