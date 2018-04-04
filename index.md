@@ -18,7 +18,7 @@ image:
 </div><!-- /.tile -->
 
 <div class="tile is-4">
-  <h2 class="post-title"><a href="https://ch-robinson.github.com/">GitHub</a></h2>
+  <h2 class="post-title"><a href="https://github.com/ch-robinson">GitHub</a></h2>
   <p class="post-excerpt">Visit us on GitHub.</p>
 </div><!-- /.tile -->
 
