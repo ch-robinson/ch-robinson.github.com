@@ -7,7 +7,7 @@ image:
 
 <div class="tiles">
 
-<div class="tile">
+<div class="tile is-2">
   <h2 class="post-title"><a href="https://developer.chrobinson.com/">API Portal</a></h2>
   <p class="post-excerpt">Welcome to the API Portal.  The API Portal documents the rich API that customers can use to interact with the Navisphere Platform.</p>
 </div><!-- /.tile -->
