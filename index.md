@@ -24,7 +24,8 @@ image:
 
 <div class="tile is-4">
 {% unless site.posts == empty %}
-    <h2 class="post-title"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Latest Blog</a></h2>
+{% for post in site.posts limit:1 %}
+    <h2 class="post-title"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Blog - {{ post.title | escape_once }}"></a></h2>
             <p>
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
             </p>
@@ -32,6 +33,7 @@ image:
                 {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.excerpt %}{{ post.excerpt | strip_html | escape }}{% endif %}
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
+{% endfor %}
 {% endunless %}
 </div><!-- /.tile -->
 
