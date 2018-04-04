@@ -8,23 +8,19 @@ image:
 <div class="tiles">
 
 <div class="tile">
-  <h2 class="post-title">API Portal</h2>
-  <p class="post-excerpt">Welcome to the (API Portal)[https://developer.chrobinson.com/].  The API Portal documents the rich API that customers can use to interact with the Navisphere Platform.</p>
+  <h2 class="post-title"><a href="https://developer.chrobinson.com/">API Portal</a></h2>
+  <p class="post-excerpt">Welcome to the API Portal.  The API Portal documents the rich API that customers can use to interact with the Navisphere Platform.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Content First</h2>
-  <p class="post-excerpt">Designed to put the focus on you and your writing. Headers, navigation, sidebars, and footers have been purposely deemphasized.</p>
+  <h2 class="post-title"><a href="https://www.chrobinson.com/en-us/about-us/technology/">CH Robinson Technology</a></h2>
+  <p class="post-excerpt">The rapid advancement of technology is transforming the way in which we live and do business. Supply chains are no exception. As your supply chain grows in both size and complexity, you need the best transportation management technology to gain a competitive advantage and exceed your customer expectations. That’s why we are invested in delivering and implementing flexible, efficient, and integrated technology solutions that connect all aspects of your supply chain.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Customizable</h2>
-  <p class="post-excerpt">Packed with layouts and modules. Include Disqus comments, social sharing buttons, and table of contents on one or all pages.</p>
+  <h2 class="post-title"><a href="https://ch-robinson.github.com/">GitHub</a></h2>
+  <p class="post-excerpt">Visit us on GitHub.</p>
 </div><!-- /.tile -->
 
-<div class="tile">
-  <h2 class="post-title">Extensible</h2>
-  <p class="post-excerpt">Compatible with popular libraries like <a href="http://bourbon.io">Bourbon</a>, <a href="http://neat.bourbon.io/">Neat</a>, and <a href="http://github.com/octopress/octopress">Octopress</a> to help build and deploy your site with ease.</p>
-</div><!-- /.tile -->
 
 </div><!-- /.tiles -->
