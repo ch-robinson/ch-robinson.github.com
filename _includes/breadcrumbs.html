@@ -1,12 +1,12 @@
 {% if page.categories and page.categories != empty %}
 <nav class="breadcrumbs">
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}" itemprop="url">
+    <a href="{{ site.url }}{{ site.baseurl }}" itemprop="url">
       <span itemprop="title">Home</span>
     </a> ›
   </span>
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}/category/{{ page.categories | first }}/" itemprop="url">
+    <a href="{{ site.url }}{{ site.baseurl }}/categories#{{ page.categories | first | downcase }}" itemprop="url">
       <span itemprop="title">{{ page.categories | first | replace: '-',' ' | capitalize }}</span>
     </a>
   </span>
