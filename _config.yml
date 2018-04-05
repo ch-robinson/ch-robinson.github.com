@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: "CH Robinson Engineering Blog"
-description: "A blog covering the engineering culture and efforts at CH Robinson."
+title: "C.H. Robinson Engineering Blog"
+description: "A blog covering the engineering culture and efforts at C.H. Robinson."
 logo: chr-homepage.png
 teaser: chr-homepage.jpg
 locale: en
@@ -26,8 +26,8 @@ gems:
 
 # Site owner
 owner: JDofCHR
-name: 
-email: 
+name:
+email:
   twitter:
   google:
     ad-client:
