@@ -4,7 +4,7 @@
 
 <div class="author-image">
   {% if author.gravatar %}<img src="https://gravatar.com/avatar/{{ author.gravatar }}?s=300" alt="{{ author.name }}">
-  {% else %}<img src="{{ site.url }}/images/bio-photo.jpg" alt="{{ author.name }}">{% endif %}
+  {% else %}<img src="{{ site.url }}/images/bio-photo.png" style="width: auto;" alt="{{ author.name }}">{% endif %}
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >{{ site.data.messages.locales[site.locale].written_by }} {% if author.web %}<a href="{{ author.web }}" itemprop="author">{{ author.name }}</a>{% else %}<span itemprop="author">{{ author.name }}</span>{% endif %}</h3>
