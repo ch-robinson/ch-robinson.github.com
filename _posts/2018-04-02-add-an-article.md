@@ -10,6 +10,7 @@ image:
   feature:
   teaser: chr-logomark.svg
   thumb:
+disclaimer: true
 ---
 
 Here are some examples of markdown (via the kramdown converter) formatting for posts on a site build with Jekyll.
