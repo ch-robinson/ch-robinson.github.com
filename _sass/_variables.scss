@@ -6,8 +6,17 @@
    Typography variables
    ========================================================================== */
 
+$system-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+"Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+"Droid Sans", "Helvetica Neue", sans-serif;
+
+/* Original theme fonts
 $base-font                   	: Georgia,Times,"Times New Roman",serif;
 $heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
+*/
+
+$base-font                   	: $system-font;
+$heading-font                	: $system-font;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
