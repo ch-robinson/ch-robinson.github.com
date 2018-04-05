@@ -1,7 +1,7 @@
 # Site navigation links
 
 - title: Blog Archive
-  url: /blogs/
+  url: /blog/
   excerpt: "Blog Archive"
   image: 400x250.gif
 
@@ -15,7 +15,7 @@
   excerpt: ""
   image: 400x250.gif
 
-- title: CH Robinson
+- title: C.H. Robinson
   url: https://www.chrobinson.com/
   excerpt: ""
   image: 400x250.gif

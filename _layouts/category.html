@@ -1,0 +1,45 @@
+---
+layout: default
+share: false
+---
+
+<div id="main" role="main">
+  <article class="wrap" itemscope itemtype="http://schema.org/Article">
+    <div class="page-title">
+      <h1>Posts related to: {{ page.title }}</h1>
+    </div>
+
+    {% unless page.content == '' %}
+    <p>{{ page.content }}</p>
+    {% endunless %}
+
+    {% unless site.categories[page.category] %}
+    <p>No posts in this category at this time.</p>
+    {% endunless %}
+
+    {% for post in site.categories[page.category] %}
+    <div class="post-preview">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+          {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+          {{ post.subtitle }}
+        </h3>
+        {% endif %}
+      </a>
+      <p class="post-meta">
+        Posted by
+        {% if post.author %}
+        {{ post.author }}
+        {% else %}
+        {{ site.title }}
+        {% endif %}
+        on {{ post.date | date: "%B %-d, %Y" }}
+      </p>
+    </div>
+    <hr>
+    {% endfor %}
+  </article><!-- ./wrap -->
+</div><!-- /#main -->
