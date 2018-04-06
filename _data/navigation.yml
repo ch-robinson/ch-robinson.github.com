@@ -1,21 +1,17 @@
 # Site navigation links
 
 - title: Blog Archive
-  url: /blogs/
+  url: /blog/
   excerpt: "Blog Archive"
-  image: 400x250.gif
 
 - title: Who We Are
   url: /who-we-are/
   excerpt: ""
-  image: 400x250.gif
 
 - title: We Are Hiring
   url: https://www.chrobinson.com/en-us/careers/
   excerpt: ""
-  image: 400x250.gif
 
-- title: CH Robinson
+- title: C.H. Robinson
   url: https://www.chrobinson.com/
   excerpt: ""
-  image: 400x250.gif

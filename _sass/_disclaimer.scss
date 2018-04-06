@@ -1,0 +1,31 @@
+// adapted from https://stackoverflow.com/a/33931219/3928053
+.disclaimer {
+  .collapse > p {
+    margin-bottom: 0;
+  }
+
+  #disclaimer-expand {
+    display: none;
+  }
+
+  #disclaimer-expand + .collapse {
+    max-height: 52px;
+    overflow: hidden;
+    transition: all .3s ease;
+  }
+
+  #disclaimer-expand:checked + .collapse {
+    max-height: 600px;
+  }
+
+  label {
+    color: rgb(154, 154, 154);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  label:hover {
+    text-decoration: none;
+  }
+}
+

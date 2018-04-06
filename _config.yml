@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: "CH Robinson Engineering Blog"
-description: "A blog covering the engineering culture and efforts at CH Robinson."
+title: "C.H. Robinson Engineering Blog"
+description: "A blog covering the engineering culture and efforts at C.H. Robinson."
 logo: chr-homepage.png
 teaser: chr-homepage.jpg
 locale: en
-url:
+url: http://engineering.chrobinson.com
 feed:
   path: atom.xml
 
@@ -18,22 +18,27 @@ permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
-gems:
-  - jekyll-sitemap
+plugins:
   - jekyll-gist
   - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-sass-converter
+  - jekyll-paginate
+paginate: 5
+paginate_path: /blog/page/:num/
 
 
 # Site owner
-owner: JDofCHR
-name: 
-email: 
-  twitter:
+owner:
+  name: C.H. Robinson Engineering
+  email:
+  twitter: CHRobinsonInc
   google:
     ad-client:
     ad-slot:
   bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  avatar: chr-logomark.svg # 160x160 px image for author byline
   disqus-shortname:
 
 
@@ -43,6 +48,7 @@ exclude:
   - "*.less"
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - .idea
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
