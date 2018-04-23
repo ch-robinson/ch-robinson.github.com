@@ -1,0 +1,19 @@
+{% assign authors = include.authors %}
+{% assign authorCount = authors | size %}
+{% if authorCount == 0 %}
+{{ site.owner.name }}
+{% else %}
+  {%- for author in authors -%}
+  {%- if forloop.first -%}
+  {{ site.data.authors[author].name }}
+  {%- elsif forloop.last -%}
+    {%- if forloop.length > 2 -%}
+    , and {{ site.data.authors[author].name }}
+    {%- else -%}
+    &nbsp;and {{ site.data.authors[author].name }}
+    {%- endif -%}
+  {%- else -%}
+  , {{ site.data.authors[author].name }}
+  {%- endif -%}
+  {%- endfor -%}
+{% endif %}

@@ -320,6 +320,7 @@
 	word-wrap: break-word;
 	padding-left: 100px; //avatar width + 20px padding
 	min-height: 80px; //mirrors avatar height
+    margin-bottom: 20px;
 }
 .author-name {
 	@include font-size(20,no);
