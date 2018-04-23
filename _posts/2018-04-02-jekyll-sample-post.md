@@ -1,7 +1,10 @@
 ---
 layout: article
 title: "Jekyll Sample Post"
-author: brianmitchell
+authors:
+ - brianmitchell
+ - brianmitchell
+ - brianmitchell
 modified: 2018-04-05
 categories: howto
 excerpt: "Here are some examples of markdown (via the kramdown converter) formatting for posts on a site build with Jekyll."

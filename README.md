@@ -14,7 +14,7 @@ bundle install
 
 ```sh
 bundle exec jekyll serve
-# include --watch to re-build on changes
+# include --watch to re-build on changes or --livereload to re-build and refresh on changes
 ```
 
 The site will now be served from `http://localhost:4000`

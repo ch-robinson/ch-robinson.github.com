@@ -1,6 +1,6 @@
 <article class="tile" itemscope itemtype="http://schema.org/Article">
   <h2 class="post-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
   {% if post.date %}<p class="entry-date date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %}
-  <small>{{ site.data.authors[post.author].name }}</small>
+  <small>{% include author-names-string.html authors=post.authors %}</small>
   <p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p>
 </article><!-- /.tile -->

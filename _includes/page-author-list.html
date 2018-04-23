@@ -1,0 +1,11 @@
+<h4>{{ site.data.messages.locales[site.locale].written_by }}</h4>
+
+{% assign authorCount = page.authors | size %}
+{% if authorCount == 0 %}
+  {% include page-author.html author=site.owner %}
+{% else %}
+  {% for _author in page.authors %}
+    {% assign author = site.data.authors[_author] %}
+    {% include page-author.html author=author %}
+  {% endfor %}
+{% endif %}
