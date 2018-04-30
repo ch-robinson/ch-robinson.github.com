@@ -296,9 +296,8 @@
 }
 // page lead
 .page-lead {
-	background-position: center top;
+	background-position: center bottom;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	text-align: center;
 	color: $white;
 	@include media($large) {
