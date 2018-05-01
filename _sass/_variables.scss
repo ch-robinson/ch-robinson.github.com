@@ -6,6 +6,9 @@
    Typography variables
    ========================================================================== */
 
+$font-chr-base: Yantramanav, Verdana, sans-serif;
+$font-chr-alt: Titillium Web, Arial, sans-serif;
+
 $system-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
 "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
 "Droid Sans", "Helvetica Neue", sans-serif;
@@ -15,9 +18,9 @@ $base-font                   	: Georgia,Times,"Times New Roman",serif;
 $heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
 */
 
-$base-font                   	: $system-font;
-$heading-font                	: $system-font;
-$caption-font                	: $base-font;
+$base-font                   	: $font-chr-base;
+$heading-font                	: $font-chr-alt;
+$caption-font                	: $system-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
 
@@ -31,7 +34,10 @@ $border-radius               	: 3px;
    ========================================================================== */
 
 $white                        : #fff;
-$black                        : #000;
+$black                        : #101820;
+$color-blue-light             : #00A3E0;
+$color-blue-medium            : #0086D6;
+$color-blue-dark              : #004986;
 
 $body-color                  	: #ebebeb;
 
@@ -116,4 +122,4 @@ $badge-font-color              : $white;
    Masthead variables
    ========================================================================== */
 
-$masthead-height: $button-size * 2;
+$masthead-height: 72px;
