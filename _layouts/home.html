@@ -11,23 +11,7 @@
     {% include open-graph.html %}
     {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-
-    <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cleartype" content="on">
-
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600,700|Yantramanav" rel="stylesheet">
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-    <!-- HTML5 Shiv and Media Query Support for IE -->
-    <!--[if lt IE 9]>
-      <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
-      <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
-    <![endif]-->
-
+    {% include head.html %}
   </head>
 
   <body>
