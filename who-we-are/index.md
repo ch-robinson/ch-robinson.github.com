@@ -10,7 +10,7 @@ image:
 share: false
 ---
 
-_We’re the original 3PL.  We believe in accelerating global trade to seamlessly deliver the products and goods that
+_We’re the original 3PL. We believe in accelerating global trade to seamlessly deliver the products and goods that
 drive the world’s economy. With more than a century of industry experience, we know what it takes to manage rapid
 growth, embrace change, and to stay competitive in the marketplace. Today, we’re one of the world’s largest third
 party logistic providers—delivering innovative supply chain solutions to more than 113,000 customers across the world.
