@@ -11,7 +11,7 @@
   height: $masthead-height;
   background-color: $black;
 	z-index: 5;
-  padding: 0 80px 0 40px;
+  padding: 0 72px 0 25px;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
 	&.slide {
@@ -34,6 +34,7 @@
 
     img {
       margin-right: 10px;
+      height: 50px;
 
       &.desktop {
         @media screen and (max-width: 599px) {
