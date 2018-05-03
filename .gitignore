@@ -7,3 +7,7 @@ node_modules
 _asset_bundler_cache
 .sass-cache
 .jekyll-metadata
+npm-debug.log
+package-lock.json
+.idea
+Gemfile.lock

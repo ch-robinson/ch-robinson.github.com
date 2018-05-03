@@ -1,8 +1,10 @@
 <header id="masthead">
-  <div class="inner-wrap">
-    <a href="{{ site.url }}/" class="site-title">{{ site.title }}</a>
-    <nav role="navigation" class="menu top-menu">
-        {% include navigation.html %}
-    </nav>
-  </div><!-- /.inner-wrap -->
+  <div class="logo">
+    <a href="{{ site.url }}/" class="site-title">
+      <img src="/images/chr-logo-white.svg" class="desktop" alt="C.H. Robinson"/><img src="/images/chr-logo-small.svg" class="mobile" alt="C.H. Robinson"/><span>Engineering Blog</span>
+    </a>
+  </div>
+  <nav role="navigation" class="menu top-menu">
+    {% include navigation.html %}
+  </nav>
 </header><!-- /.masthead -->

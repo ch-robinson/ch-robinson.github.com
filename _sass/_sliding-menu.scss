@@ -24,11 +24,11 @@
   position: fixed;
   transform: translateZ(0);
   backface-visibility: hidden; /* fix scroll jank */
-  top: $gutter;
-  right: $gutter;
+  top: 0;
+  right: 0;
   display: block;
-  width: $button-size * 2;
-  height: $button-size * 2;
+  width: $masthead-height;
+  height: $masthead-height;
   background: $primary-color;
   outline: 0;
   padding: 0;

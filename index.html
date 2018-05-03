@@ -1,0 +1,43 @@
+---
+layout: home
+permalink: /
+image:
+  feature: chr-homepage.jpg
+---
+
+<div class="tiles">
+
+  <div class="tile">
+    <h2 class="post-title"><a href="https://developer.chrobinson.com/">API Portal</a></h2>
+    <p class="post-excerpt">Welcome to the API Portal. The API Portal documents the rich API that customers can use to
+      interact with the Navisphere Platform.</p>
+  </div><!-- /.tile -->
+
+  <div class="tile">
+    <h2 class="post-title"><a href="https://www.chrobinson.com/en-us/about-us/technology/">C.H. Robinson Technology</a>
+    </h2>
+    <p class="post-excerpt">We invest in delivering and implementing flexible, efficient, and integrated technology
+      solutions that connect all aspects of your supply chain.</p>
+  </div><!-- /.tile -->
+
+  <div class="tile">
+    <h2 class="post-title"><a href="https://github.com/ch-robinson">GitHub</a></h2>
+    <p class="post-excerpt">Visit us on GitHub.</p>
+  </div><!-- /.tile -->
+
+  <div class="tile">
+    {% unless site.posts == empty %}
+    {% for post in site.posts limit:1 %}
+    <h2 class="post-title"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Latest Blog - {{ post.title |
+      escape_once }}</a></h2>
+    <p class="post-excerpt">
+      {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.excerpt %}{{
+      post.excerpt | strip_html | escape }}{% endif %}
+      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{
+        site.data.language.read_more }}</strong></a>
+    </p>
+    {% endfor %}
+    {% endunless %}
+  </div><!-- /.tile -->
+
+</div><!-- /.tiles -->
