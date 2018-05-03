@@ -12,14 +12,10 @@ share: false
 
 _We’re the original 3PL.  We believe in accelerating global trade to seamlessly deliver the products and goods that drive the world’s economy. With more than a century of industry experience, we know what it takes to manage rapid growth, embrace change, and to stay competitive in the marketplace. Today, we’re one of the world’s largest third party logistic providers—delivering innovative supply chain solutions to more than 113,000 customers across the world. Whether you need truckload services, ocean or air shipping, supply chain consulting, or more—we use the strengths of our knowledgeable people, proven processes, and global technology to provide unmatched connectivity, capabilities, and experience._
 
-When it comes to CHR IT, we live and breathe our role in those words to deliver on our vision of accelerating commerce through the world’s most powerful supply chain platform. However, the role we play as CHR IT is really the outcome of all of our CHR IT-er's, or CHRITers.
+We are C.H. Robinson IT (CHR IT). We work to deliver our vision of accelerating commerce through the world’s most powerful supply chain platform. The role of CHR IT is determined by each of our dedicated CHR IT-er's, or CHRITters[^1].
 
-At our core, CHRITers are:
+At our core, CHRITters are passionate about finding innovative solutions to our industry's unique and complex needs.
 
-1)
-2)
-3)
+This blog is our place to share our experiences, challenges, and triumphs.
 
-elaborate on each
-
-closing statement
+[^1]: Pronounced critter /ˈkrɪtə/
