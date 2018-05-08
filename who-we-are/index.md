@@ -18,7 +18,7 @@ Whether you need truckload services, ocean or air shipping, supply chain consult
 our knowledgeable people, proven processes, and global technology to provide unmatched connectivity, capabilities,
 and experience._
 
-We are C.H. Robinson IT (CHR IT). We work to deliver our vision of accelerating commerce through the world’s most powerful supply chain platform. The role of CHR IT is determined by each of our dedicated CHR IT-er's, or CHRITters[^1].
+We are C.H. Robinson IT (CHR IT). We work to deliver our vision of accelerating commerce through the world’s most powerful supply chain platform. The role of CHR IT is determined by each of our dedicated CHR IT-ers, or CHRITters[^1].
 
 At our core, CHRITters are passionate about finding innovative solutions to our industry's unique and complex needs.
 
