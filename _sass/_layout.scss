@@ -429,3 +429,79 @@
 .mobile {
   display: none;
 }
+
+/*
+   Aside
+   This will be aligned correctly when the main section is wrapped in an .inner-wrap
+   See /index.html for an example
+   ========================================================================== */
+
+aside {
+  position: relative;
+  float: right;
+  //margin-top: $gutter;
+  margin-left: -$gutter;
+  margin-right: -$gutter;
+  //padding: 10px 0 20px;
+  background: lighten($border-color,10);
+  @include media($medium) {
+    @include span-columns(3);
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .entry {
+    margin-left: $gutter;
+    margin-right: $gutter;
+  }
+}
+
+/*
+   Listed Post
+   This is used on the home page to show a list of full recent posts.
+   This is mostly the .tile styling, with the removal of the columns/grid layout
+   See /index.html for an example
+   ========================================================================== */
+
+.listed-post {
+  // hide the table of contents
+  nav.toc {
+    display: none;
+  }
+
+  @include outer-container;
+  margin-bottom: $gutter;
+  @include media($micro) {
+    @include fill-parent;
+  }
+  .entry-date {
+    @include font-size(16,no);
+    color: lighten($text-color,25);
+  }
+  .post-title {
+    @include font-size(32,no);
+  }
+  .post-excerpt {
+    @include font-size(16);
+  }
+  .post-teaser {
+    position: relative;
+    display: block;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba($base-color,0);
+      pointer-events: none;
+      @include transition(background 0.3s);
+    }
+    &:hover {
+      &:after {
+        background: rgba($base-color,0.2);
+      }
+    }
+  }
+}
