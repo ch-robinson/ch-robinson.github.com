@@ -9,7 +9,7 @@ image:
 
 <section class="inner-wrap">
   {% for post in site.posts limit:5 %}
-  <article class="listed-post" itemscope itemtype="http://schema.org/Article">
+  <article class="listed-post" itemscope itemtype="https://schema.org/Article">
     <h2 class="post-title" itemprop="name"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title |
       escape_once }}</a></h2>
     {% if post.date %}

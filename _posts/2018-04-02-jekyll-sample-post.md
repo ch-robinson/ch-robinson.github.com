@@ -46,7 +46,7 @@ const string = words.join(' '); // Even some example code!
 Inline an image!
 
 <figure>
-	<img src="http://placehold.it/600x250.gif" alt="Placeholder image">
+	<img src="https://placehold.it/600x250.gif" alt="Placeholder image">
 	<figcaption>Image caption goes here.</figcaption>
 </figure>
 
