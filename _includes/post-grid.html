@@ -1,4 +1,4 @@
-<article class="tile" itemscope itemtype="http://schema.org/Article">
+<article class="tile" itemscope itemtype="https://schema.org/Article">
   <h2 class="post-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
   {% if post.date %}<p class="entry-date date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %}
   <small>{% include author-names-string.html authors=post.authors %}</small>

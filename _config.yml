@@ -5,7 +5,7 @@ description: "A blog covering the engineering culture and efforts at C.H. Robins
 logo: chr-homepage.png
 teaser: chr-homepage.jpg
 locale: en
-url: http://engineering.chrobinson.com
+url: https://engineering.chrobinson.com
 feed:
   path: atom.xml
 
