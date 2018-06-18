@@ -6,7 +6,7 @@
         {% assign domain = site.url %}
     {% endif %}
     <li>
-      <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
+      <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}{% endif %}>{{ link.title }}</a>
       <span class="line"></span>
       <span class="line2"></span>
       <div class="circle"></div>
