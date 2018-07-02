@@ -42,6 +42,9 @@ owner:
   disqus-shortname:
 
 
+# Google Analytics
+ga: UA-121647803-1
+
 include:
   - .htaccess
 exclude:
