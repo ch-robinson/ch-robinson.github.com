@@ -56,8 +56,8 @@ Charlie isn't all work, we try to give him personality and make him fun as well.
 - See which is hotter, Mars or Minneapolis
 
 ### Meta Scripts
-We also have meta scripts that help us improve Charlie and give him character. We have a scripts that:
-- Create an issue in our Charlie repository with an idea or feedback on Charlie itself
+We also have meta scripts that help us improve Charlie and give him character. We have scripts that help with:
+- Creating an issue in our Charlie repository with an idea or feedback on Charlie itself
 - Thanking Charlie
 - Greeting Charlie
 
