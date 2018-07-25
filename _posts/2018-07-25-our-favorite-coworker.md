@@ -15,7 +15,7 @@ image:
 disclaimer: true
 ---
 
-How does a "[hubot](https://hubot.github.com/)" instance automate tasks and promote workplace culture? Meet Charlie.
+How does a [hubot](https://hubot.github.com/) instance automate tasks and promote workplace culture? Meet Charlie.
 
 ## History
 
