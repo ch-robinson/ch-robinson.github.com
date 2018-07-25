@@ -15,13 +15,13 @@ image:
 disclaimer: true
 ---
 
-How does a [hubot](https://hubot.github.com/) instance automate tasks and promote workplace culture? Meet Charlie.
+How does a hubot instance automate tasks and promote workplace culture? Meet Charlie.
 
 ## History
 
 Charlie came out of no where for us. His creation was a small chance of coincidence of having been in the right place at the right time. In 2016, eight engineers went to GitHub Universe. We had been using GitHub for about year and GitHub Universe seemed like a great way to gauge how we were doing as a company.
 
-The day before the conference, GitHub offered a training day. During one of the afternoon sessions we had the option of git or something called hubot. The class on git was popular and did not have space for the whole group. We sent the larger half of our group to the git talk while two of us headed upstairs to attend the talk on this hubot thing. Going into the talk we were thinking "Great, this will be like a silly IRC bot. How useful can it be?" Wow, were we wrong! The presenters talked about hubot's current implementation and how they use their "little" bot to do tons of tasks, from pulling graphs of their systems to actually deploying GitHub itself. We had a few ideas of our own by the end of the class. By the end of the conference, we had a *lot*.
+The day before the conference, GitHub offered a training day. During one of the afternoon sessions we had the option of git or something called [hubot](https://hubot.github.com/). The class on git was popular and did not have space for the whole group. We sent the larger half of our group to the git talk while two of us headed upstairs to attend the talk on this hubot thing. Going into the talk we were thinking "Great, this will be like a silly IRC bot. How useful can it be?" Wow, were we wrong! The presenters talked about hubot's current implementation and how they use their "little" bot to do tons of tasks, from pulling graphs of their systems to actually deploying GitHub itself. We had a few ideas of our own by the end of the class. By the end of the conference, we had a *lot*.
 
 Back in the office, we started by setting him up locally on our computers and made scripts that we thought would be useful. It took until our 2017 hackathon that we were able to pull together a small team and implement the bot for the organization. We called our hubot instance "Charlie" after our company founder, Charles Henry Robinson.
 
