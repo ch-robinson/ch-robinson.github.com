@@ -1,21 +1,19 @@
 ---
 layout: archive
-title: "Archive"
-excerpt:
-tags: []
-image:
-  feature:
-  teaser:
-  thumb:
+title: Archive
 ---
 
-<p>
-  <a href="{{ site.url }}{{ site.baseurl }}/categories">View all Categories</a>
-</p>
+<h4>Collections</h4>
+<ul>
+  <li><a href="{{ site.url }}{{ site.baseurl }}/categories">View all Categories</a></li>
+  <li><a href="{{ site.url }}{{ site.baseurl }}/tags">View all Tags</a></li>
+</ul>
 
-{% for post in paginator.posts %}
-{% include post-grid.html %}
-{% endfor %}
+<section class="clearfix">
+  {% for post in paginator.posts %}
+  {% include post-grid.html %}
+  {% endfor %}
+</section>
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}

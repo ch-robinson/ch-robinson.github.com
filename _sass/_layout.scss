@@ -233,7 +233,8 @@
 			// cleaner underlines for links
 			a { text-decoration: none; }
 			p a,
-			li a {
+			li a,
+      .pagination a {
 				border-bottom: 1px dotted lighten($link-color, 50);
 				&:hover {
 					border-bottom-style: solid;
@@ -453,5 +454,22 @@ aside {
   .entry {
     margin-left: $gutter;
     margin-right: $gutter;
+  }
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+/*
+   Article Tags
+   ========================================================================== */
+
+ul.tags {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    display: inline-block;
   }
 }
