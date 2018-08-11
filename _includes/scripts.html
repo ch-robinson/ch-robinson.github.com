@@ -1,5 +1,6 @@
 <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
 <script src="{{ site.url }}/js/main.js"></script>
+{% if jekyll.environment == 'production' %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.ga}}"></script>
 <script>
@@ -9,3 +10,4 @@
 
   gtag('config', '{{site.ga}}');
 </script>
+{% endif %}
