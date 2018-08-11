@@ -121,6 +121,11 @@ figure {
     margin-right: 0;
     position: relative;
   }
+  @include media($medium) {
+    img {
+      max-height: 600px;
+    }
+  }
   @include clearfix;
   img,
   .fluid-width-video-wrapper,
