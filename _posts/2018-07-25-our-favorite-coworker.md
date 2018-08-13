@@ -26,7 +26,7 @@ The day before the conference, GitHub offered a training day. During one of the 
 Back in the office, we started by setting him up locally on our computers and made scripts that we thought would be useful. It took until our 2017 hackathon that we were able to pull together a small team and implement the bot for the organization. We called our hubot instance "Charlie" after our company founder, Charles Henry Robinson.
 
 <figure>
-	<img src="{{site.url}}{{site.baseurl}}/images/posts/2018/charlie-star.svg" width="50%" alt="Charlie Icon" aria-label="Robot head with a mustache, wearing a brown cowboy hat with a gold star on the front, and a bandana around the neck">
+	<img src="{{site.url}}{{site.baseurl}}/images/posts/2018/charlie-star.svg" alt="Charlie Icon" aria-label="Robot head with a mustache, wearing a brown cowboy hat with a gold star on the front, and a bandana around the neck">
 	<figcaption>This is Charlie, feel free to say hello! :wave: (image by Alex Brown)</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ We also have meta scripts that help us improve Charlie and give him character. W
 - Greeting Charlie
 
 <figure>
-	<img src="{{site.url}}{{site.baseurl}}/images/posts/2018/charlie-conversation.png" width="50%" alt="conversation with Charlie" aria-label="An example conversation with Charlie: asking for an acronym and getting the holidays for the current year">
+	<img src="{{site.url}}{{site.baseurl}}/images/posts/2018/charlie-conversation.png" alt="conversation with Charlie" aria-label="An example conversation with Charlie: asking for an acronym and getting the holidays for the current year">
 	<figcaption>A conversation with Charlie</figcaption>
 </figure>
 
@@ -90,6 +90,6 @@ These ideas will decrease the barrier to entry for new contributors and deliver 
 We love when new people want to get involved to contribute to Charlie. To internally advertise for Charlie and to spread the awareness, we give contributors T-Shirts (they say "@charlie help") and stickers with our Charlie logo. We have hubot and Charlie (without a star) stickers that anyone can collect.
 
 <figure>
-	<img src="{{site.url}}{{site.baseurl}}/images/posts/2018/charlie-mechanics.jpg" width="50%" alt="Charlie mechanics" aria-label="Mike and Brian wearing t-shirts with the text &quot;@charlie help&quot; on the front">
+	<img src="{{site.url}}{{site.baseurl}}/images/posts/2018/charlie-mechanics.jpg" alt="Charlie mechanics" aria-label="Mike and Brian wearing t-shirts with the text &quot;@charlie help&quot; on the front">
 	<figcaption>Mike and Brian, Charlie mechanics</figcaption>
 </figure>
