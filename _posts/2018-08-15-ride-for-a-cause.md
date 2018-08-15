@@ -43,8 +43,8 @@ As members of the Robinson Captains Crew, the three of us get to help other new 
 Robinson's team supported 162 riders last month -- all of them employees, friends, and family. Collectively, Team Robinson raised $178,885 for the Multiple Sclerosis Society. Robinson has been the local Minnesota ride's title sponsor for 9 years, showing their dedication to the cause. Rider and corporate donations fund research, support families coping with MS with in-home services, counseling, and even scholarships for kids whose parents are fighting the disease.
 
 <figure>
-	<img src="{{site.url}}{{site.baseurl}}/images/posts/2018/ms150-selfie.jpg" alt="Selfie at the CHR tent" aria-label="Three people taking a selfie in the CHR tent">
-	<figcaption>Enjoying the C.H. Robinson tent after the ride</figcaption>
+	<img src="{{site.url}}{{site.baseurl}}/images/posts/2018/ms150-selfie.jpg" alt="C.H. Robinson tent volunteers" aria-label="Three C.H. Robinson tent volunteers taking a selfie">
+	<figcaption>C.H. Robinson tent volunteers</figcaption>
 </figure>
 
 Preparing for and completing this ride is a testament of focus, determination, and strength. Those who have done it year over year build a community in their fellow riders. Riding 75 miles two days in a row gives you plenty to bond over – the sore butt, the awesome PBJ at rest stops, whatever flavor of weather you got stuck in this year. And the occasional war story makes you pretty darn tough; you can gloat for years that you finished it in spite of heat, rain, or even hail! 
