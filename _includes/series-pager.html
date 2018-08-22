@@ -1,0 +1,18 @@
+<h4><strong>&quot;{{ page.series | replace: '-', ' '| capitalize }}&quot;</strong> Series</h4>
+{% assign series-posts = site.posts | reverse | where: 'series', page.series %}
+{% for post in series-posts %}
+  {% if post.url == page.url %}
+    {% assign prev_post_index = forloop.index | minus: 1 %}
+    {% assign next_post_index = forloop.index | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% for post in series-posts %}
+  {% if prev_post_index == forloop.index %}
+    <a class="btn" rel="prev" href="{{ site.baseurl }}{{ post.url }}">&larr; Prev Post</a>
+  {% endif %}
+
+  {% if next_post_index == forloop.index %}
+    <a class="btn" rel="next" href="{{ site.baseurl }}{{ post.url }}">Next Post &rarr;</a>
+  {% endif %}
+{% endfor %}
