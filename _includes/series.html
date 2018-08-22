@@ -1,0 +1,16 @@
+<aside class="series">
+  <h4>This post is part of the series <strong>&quot;{{ page.series | replace: '-', ' '| capitalize }}&quot;</strong></h4>
+  <ol>
+    {% for post in site.posts reversed %}
+    {% if post.series == page.series %}
+    <li>
+      {% if post.url == page.url %}
+      <strong>{{ post.title }}</strong>
+      {% else %}
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ol>
+</aside>

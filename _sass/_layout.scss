@@ -473,3 +473,40 @@ ul.tags {
     display: inline-block;
   }
 }
+
+/*
+   Article Series
+   ========================================================================== */
+
+aside.series {
+  position: relative;
+  margin-top: $gutter;
+  padding: 20px;
+  background: lighten($border-color,5);
+  border: 1px solid $border-color;
+  float: none;
+  @include media($medium) {
+    @include span-columns(3);
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  h4 {
+    margin-top: 0;
+  }
+  ol {
+    padding-left: 20px;
+    margin-bottom: 0;
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+  }
+  a {
+    text-decoration: none;
+    border-bottom: 1px dotted lighten($link-color, 50);
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
+}
