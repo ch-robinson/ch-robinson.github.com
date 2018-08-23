@@ -3,9 +3,13 @@
 {% for post in series-posts %}
   {% if post.url == page.url %}
     {% assign prev_post_index = forloop.index | minus: 1 %}
+    {% assign curr_post_index = forloop.index %}
     {% assign next_post_index = forloop.index | plus: 1 %}
   {% endif %}
 {% endfor %}
+
+<p>Post <strong>{{ curr_post_index }}</strong> of <strong>{{ series-posts.size }}</strong>.
+  {% if series-posts.size == 1 %}More posts coming soon!{% endif %}</p>
 
 {% for post in series-posts %}
   {% if prev_post_index == forloop.index %}
