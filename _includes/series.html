@@ -1,8 +1,8 @@
 <aside class="series">
   <h4>This post is part of the series <em>{{ page.series | replace: '-', ' '| capitalize }}</em></h4>
   <ol>
-    {% for post in site.posts reversed %}
-    {% if post.series == page.series %}
+    {% assign series-posts = site.posts | reverse | where: 'series', page.series %}
+    {% for post in series-posts %}
     <li>
       {% if post.url == page.url %}
       <strong>{{ post.title }}</strong>
@@ -10,7 +10,9 @@
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       {% endif %}
     </li>
-    {% endif %}
     {% endfor %}
   </ol>
+  {% if series-posts.size == 1 %}
+  <p>More posts coming soon!</p>
+  {% endif %}
 </aside>
