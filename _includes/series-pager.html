@@ -1,4 +1,4 @@
-<h4><strong>&quot;{{ page.series | replace: '-', ' '| capitalize }}&quot;</strong> Series</h4>
+<h4><em>{{ page.series | replace: '-', ' '| capitalize }}</em> Series</h4>
 {% assign series-posts = site.posts | reverse | where: 'series', page.series %}
 {% for post in series-posts %}
   {% if post.url == page.url %}

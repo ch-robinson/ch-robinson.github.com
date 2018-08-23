@@ -1,5 +1,5 @@
 <aside class="series">
-  <h4>This post is part of the series <strong>&quot;{{ page.series | replace: '-', ' '| capitalize }}&quot;</strong></h4>
+  <h4>This post is part of the series <em>{{ page.series | replace: '-', ' '| capitalize }}</em></h4>
   <ol>
     {% for post in site.posts reversed %}
     {% if post.series == page.series %}
