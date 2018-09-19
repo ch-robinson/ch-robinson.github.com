@@ -58,7 +58,7 @@ what everyone was working on.
 
 Below are some examples of projects at this years Hackamania.
 
-# ECM (Enterprise Coffee Monitor)
+### ECM (Enterprise Coffee Monitor)
 
 No more will we allow our individual hackers to find out the hard way that they are grabbing the last ounce of coffee 
 and now have to wait for a fresh batch. Enterprise Coffee Monitor monitors the level of the coffee in the kitchen 
@@ -66,15 +66,15 @@ letting you know if it's safe to grab a cup of Joe. This allows the user to choo
  or go to the next location for coffee. The monitor will also inform through slack when levels are low and a pot of 
  fresh coffee needs to be brewed. And add a camera so we know who took the last cup and and didn't make more :)
 
-# Cortana Quote Me
+### Cortana Quote Me
 
 Cortana-based Quoting. A user can talk with Cortana and get a quote for a shipment.
 
-# @charlie
+### @charlie
 
 Adding more scripts to [charlie]({{site.url}}{{site.baseurl}}/culture/our-favorite-coworker/), a slackbot custom to CHR.
 
-# Fix Yo CHRap!
+### Fix Yo CHRap!
 
 Enhancing the Slack notification process to individually notify users when an build fails based on the commits in that 
 deployment. A stretch goal includes letting developers know if their deployment went all the way through to Dev or Prod.
