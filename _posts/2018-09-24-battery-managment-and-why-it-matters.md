@@ -24,7 +24,10 @@ A large part of the [NavisphereCarrier](https://play.google.com/store/apps/detai
 Customers wanting freight moved are demanding more visibility from their logistics providers. The trend is moving toward real-time tracking, but carriers drive for hours, if not days, to complete a load. Manually updating the customer is not a viable option. A mobile app can solve this problem, but the app needs to be efficient and send as few updates as the customer requires.
 
 <figure>
-	<img src="{{site.url}}{{site.baseurl}}/images/posts/2018/BatMan-MarketingBlank.jpg" alt="iPhones displaying NavisphereCarrier">
+	<img src="{{site.url}}{{site.baseurl}}/images/posts/2018/BatMan-MarketingBlank.jpg"
+	alt="iPhones displaying NavisphereCarrier"
+	aria-label="Three iPhones showing different screens from the Navisphere Carrier app">
+  <figcaption>Marketing image of Navisphere Carrier</figcaption>
 </figure>
 
 The challenge is, background processing uses battery power when the app isn't in the foreground. On older OS versions, this could allow irresponsible apps to drain the battery. Current OS versions implement strict safeguards to protect the user's battery by disabling power hungry background processes. Disabling the app saves the battery, but may impede the results of the app. In both cases the solution is simple, we must create solutions that ensure we use as little battery as possible. It's what we call *"defending the battery."*
