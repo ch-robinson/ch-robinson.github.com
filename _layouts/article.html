@@ -16,11 +16,13 @@ layout: default
 		<div class="page-title">
 			<h1>{{ page.title }}</h1>
 		</div>
+    {% if page.series %}{% include series.html %}{% endif %}
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
 				<hr />
 				<footer class="page-footer">
+          {% if page.series %}{% include series-pager.html %}{% endif %}
           {% if page.tags %}{% include tags.html %}{% endif %}
 					{% if page.categories %}{% include page-author-list.html %}{% endif %}
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
