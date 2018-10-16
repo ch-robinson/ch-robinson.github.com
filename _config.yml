@@ -25,6 +25,7 @@ plugins:
   - jemoji
   - jekyll-sass-converter
   - jekyll-paginate
+  - jekyll-redirect-from
 paginate: 8
 paginate_path: /blog/page/:num/
 

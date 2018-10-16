@@ -13,6 +13,8 @@ image:
   thumb:
 disclaimer: true
 series: mobile-apps-battery-management
+redirect_from:
+  - /mobile/battery-managment-and-why-it-matters
 ---
 
 Your phone notifies you that it has 15% power remaining, and you don't have a charging cable at hand. Are you breaking out in a sweat? Is your mind racing to find ways to charge your phone, or find a friend that can give you some power? Are you listing off what you'd be willing to give up in place of your phone? If you answered yes to any of these questions, know that you are not alone. More importantly, know that, as a mobile engineer, you have a responsibility to ensure your app isn't a contributing cause for such a scenario.
