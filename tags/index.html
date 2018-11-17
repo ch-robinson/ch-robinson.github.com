@@ -4,33 +4,40 @@ title: Tags
 permalink: /tags
 ---
 
-<ul>
-  {% assign tags_list = site.tags %}
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %}
-    <li><a href="#{{ tag | downcase | replace: ' ','-' }}">{{ tag | capitalize }} ({{ site.tags[tag].size }})</a></li>
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %}
-    <li><a href="#{{ tag[0] | downcase | replace: ' ','-' }}">{{ tag[0] | capitalize }} ({{ tag[1].size }})</a></li>
-    {% endfor %}
+{% assign tags_max = 0 %}
+{% for tag in site.tags %}
+  {% if tag[1].size > tags_max %}
+    {% assign tags_max = tag[1].size %}
   {% endif %}
-  {% assign tags_list = nil %}
+{% endfor %}
+
+<ul class="flex-list">
+  {% for i in (1..tags_max) reversed %}
+    {% for tag in site.tags %}
+      {% if tag[1].size == i %}
+      <li>
+        <a class="tag" href="#{{ tag[0] | downcase | replace: ' ', '-' }}">{{ tag[0] }} ({{ tag[1].size }})</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
 </ul>
 
-{% for tag in site.tags %}
-<h3 id="{{ tag[0] | downcase | replace: ' ','-' }}">{{ tag[0] | capitalize }}</h3>
-<ul>
-  {% assign pages_list = tag[1] %}
-  {% for post in pages_list %}
-    {% if post.title != null %}
-      {% if group == null or group == post.group %}
-      <li><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>:
-        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
+{% for i in (1..tags_max) reversed %}
+  {% for tag in site.tags %}
+    {% if tag[1].size == i %}
+      <h3 id="{{ tag[0] | downcase | replace: ' ', '-' }}">{{ tag[0] }}</h3>
+      <ul>
+        {% assign pages_list = tag[1] %}
+          {% for post in pages_list %}
+              <li>
+                <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>:
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+          {% assign pages_list = nil %}
+        {% assign group = nil %}
+      </ul>
     {% endif %}
   {% endfor %}
-  {% assign pages_list = nil %}
-  {% assign group = nil %}
-</ul>
 {% endfor %}

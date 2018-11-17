@@ -6,7 +6,7 @@ authors:
 modified: 2018-11-08
 categories: technology
 excerpt: "Consolidating our front-end technology stack around a community favorite has enabled us to move more quickly, together."
-tags: [react]
+tags: [React]
 image:
   feature:
   teaser:

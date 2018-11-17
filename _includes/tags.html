@@ -2,7 +2,7 @@
 <ul class="tags" itemprop="keywords">
   {% for tag in page.tags %}
   <li><a
-    href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag | downcase | split: ' ' | join: '-' }}"
-    class="badge inverse" rel="tag">{{ tag | capitalize }}</a></li>
+    href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag | downcase | replace: ' ', '-' }}"
+    class="tag" rel="tag">{{ tag }}</a></li>
   {% endfor %}
 </ul>
