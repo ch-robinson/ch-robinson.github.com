@@ -9,7 +9,7 @@ excerpt: "Are you drowning in a sea of buzzwords: Agile, Digital Transformation,
           Message Brokers, Open Source, Machine Learning, User-Centered Design, Cloud, DevOps, Streaming, Big Data, Observability,
           Containerization; and wondering how to make sense of it all? Well the good news is you are not alone. We at
           C.H. Robinson are also inundated with the same deluge of information."
-tags: [culture]
+tags: [Culture]
 image:
   feature:
   teaser:

@@ -8,7 +8,7 @@ authors:
 modified: 2018-08-15
 categories: community
 excerpt: "Biking 150 miles seems absolutely crazy. Duluth to the Twin Cities, who in their right mind does that?"
-tags: [biking, MS150, charity]
+tags: [Biking, MS150, Charity]
 image:
   feature: posts/2018/ms150-2018-group.jpg
   teaser:

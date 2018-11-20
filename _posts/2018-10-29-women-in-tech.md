@@ -11,7 +11,7 @@ excerpt:
   What began as a Slack channel for women in IT to share their experiences, post articles, and ask
   questions quickly grew into a passionate group of highly motivated women who started bringing
   their ideas to life.
-tags: [WomenInTech, WIT]
+tags: [Women in Tech]
 image:
   feature:
   teaser:

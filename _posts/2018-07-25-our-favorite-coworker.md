@@ -7,7 +7,7 @@ authors:
 modified: 2018-07-25
 categories: culture
 excerpt: "How does a hubot instance automate tasks and promote workplace culture? Meet Charlie."
-tags: [hubot, charlie]
+tags: [Hubot, Charlie]
 image:
   feature:
   teaser:

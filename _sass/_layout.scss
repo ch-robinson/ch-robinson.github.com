@@ -514,3 +514,18 @@ aside.series {
     margin-bottom: 0;
   }
 }
+
+/*
+   Flex list
+   ========================================================================== */
+
+ul.flex-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    margin: .25rem;
+  }
+}

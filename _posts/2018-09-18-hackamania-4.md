@@ -8,7 +8,7 @@ categories: culture
 excerpt:
   Hackamania is an annual internal hackathon that takes place in May in the IT department. It consists of projects using 
   a variety of technologies, whether that be hardware or software, over four days to create a minimum viable product.
-tags: [hackathon, hackamania, charlie]
+tags: [Hackathon, Hackamania, Charlie]
 image:
   feature:
   teaser:
