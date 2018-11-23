@@ -3,10 +3,10 @@
     {% if link.url contains 'http' %}
         {% assign domain = '' %}
         {% else %}
-        {% assign domain = site.url %}
+        {% assign domain = site.url + site.baseurl %}
     {% endif %}
     <li>
-      <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}{% endif %}>{{ link.title }}</a>
+      <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
       <span class="line"></span>
       <span class="line2"></span>
       <div class="circle"></div>

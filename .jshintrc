@@ -4,17 +4,18 @@
   "curly": true,
   "eqeqeq": true,
   "eqnull": true,
-  "es5": false,
-  "esnext": true,
-  "immed": true,
-  "jquery": true,
+  "esversion": 5,
+  "forin": true,
+  "futurehostile": true,
   "latedef": true,
-  "newcap": true,
   "noarg": true,
   "node": true,
-  "strict": false,
-  "trailing": false,
+  "strict": true,
   "undef": true,
-  "multistr": true,
-  "expr": true
+  "unused": true,
+  "expr": true,
+  "globals": {
+    "fluidvids": false,
+    "jsMenuInit": true
+  }
 }
