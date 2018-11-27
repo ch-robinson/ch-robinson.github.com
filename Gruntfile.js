@@ -22,7 +22,7 @@ module.exports = function(grunt) {
         options: {
           livereload: true
         }
-      },
+      }
     },
     uglify: {
       dist: {
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         },
         files: {
           'js/main.js': [
-            'js/plugins/*.js',
+            'js/vendor/*.js',
             'js/_*.js'
           ]
         }
@@ -44,60 +44,18 @@ module.exports = function(grunt) {
       src: 'js/main.js',
       options: {
         overwrite: true,
-        prepend: '---\n---',
-      },
-    },
-    imagemin: {
-      dist: {
-        options: {
-          optimizationLevel: 7,
-          progressive: true
-        },
-        files: [{
-          expand: true,
-          cwd: 'images/',
-          src: '{,*/}*.{png,jpg,jpeg}',
-          dest: 'images/'
-        }]
+        prepend: '---\n---'
       }
-    },
-    imgcompress: {
-      dist: {
-        options: {
-          optimizationLevel: 7,
-          progressive: true
-        },
-        files: [{
-          expand: true,
-          cwd: 'images/',
-          src: '{,*/}*.{png,jpg,jpeg}',
-          dest: 'images/'
-        }]
-      }
-    },
-    svgmin: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: 'images/',
-          src: '{,*/}*.svg',
-          dest: 'images/'
-        }]
-      }
-    },
+    }
   });
 
   // Load tasks
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-newer');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-svgmin');
-  grunt.loadNpmTasks('grunt-imgcompress');
   grunt.loadNpmTasks('grunt-surround');
 
   // Register tasks
-  grunt.registerTask('scripts', ['watch', 'uglify']);
-  grunt.registerTask('images', ['newer:imgcompress', 'newer:svgmin']);
+  grunt.registerTask('start', ['watch', 'uglify', 'surround']);
+  grunt.registerTask('build', ['uglify', 'surround']);
 };

@@ -187,7 +187,7 @@
 	@include clearfix;
 	font-weight: 700;
 	a {
-		color: lighten($black,60);
+		color: lighten($black,30);
 	}
 }
 
@@ -254,7 +254,7 @@
 				p{
 					@include font-size(14,no);
 					font-family: $alt-font;
-					color: lighten($black,60);
+					color: lighten($black,30);
 				}
 			}
 		}
@@ -411,7 +411,7 @@
 	padding-bottom: $gutter;
 	font-family: $alt-font;
 	.legal {
-		color: lighten($black,60);
+		color: lighten($black,30);
 		border-top: 1px #e1e4e8 solid !important;
 		/* Copyright text */
 		.copyright {

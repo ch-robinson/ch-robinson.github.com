@@ -1,20 +1,22 @@
 {
-  "name": "skinny-bones-jekyll",
-  "version": "1.0.0",
+  "name": "ch-robinson-engineering-blog",
+  "version": "1.1.0",
   "private": true,
-  "description": "A Jekyll starter site",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mademistakes.com/",
+  "description": "C.H. Robinson Engineering Blog",
+  "author": "Brian Mitchell <brian.mitchell@chrobinson.com>",
+  "homepage": "https://engineering.chrobinson.com",
+  "repository": "https://github.com/ch-robinson/ch-robinson.github.com",
   "license": "The MIT License (MIT)",
+  "scripts": {
+    "start": "grunt --gruntfile ./Gruntfile.js start",
+    "build": "grunt --gruntfile ./Gruntfile.js build"
+  },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-imagemin": "~0.5.0",
-    "grunt-svgmin": "~0.3.1",
-    "grunt-imgcompress": "~0.1.1",
-    "grunt-newer": "^0.7.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "~2.0.0",
+    "grunt-contrib-uglify": "~4.0.0",
+    "grunt-contrib-watch": "~1.1.0",
     "grunt-surround": "^0.1.0"
-  }
+  },
+  "dependencies": {}
 }
