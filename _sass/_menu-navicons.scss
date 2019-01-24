@@ -11,6 +11,7 @@
   height: $button-size/7;
   background: $white;
   transition: $transition;
+  border-radius: $button-size/7;
 }
 
 .nav-lines {
@@ -101,22 +102,22 @@
 
 .lines-button.x2 {
   .nav-lines {
-    transition: background .3s .5s ease;
+    transition: background .2s .3s ease;
     &:before, &:after {
       /* set transform origin */
       transform-origin: 50% 50%;
-      transition: top .3s .6s ease, -webkit-transform .3s ease;
-      transition: top .3s .6s ease, transform .3s ease;
+      transition: top .2s .3s ease, -webkit-transform .2s ease;
+      transition: top .2s .3s ease, transform .2s ease;
     }
   }
 }
 .lines-button.x2.close {
   .nav-lines {
-    transition: background .3s 0s ease;
+    transition: background .2s 0s ease;
     background: transparent;
     &:before, &:after {
-      transition: top .3s ease, -webkit-transform .3s .5s ease; /* delay the formation of the x till the minus is formed */
-      transition: top .3s ease, transform .3s .5s ease; /* delay the formation of the x till the minus is formed */
+      transition: top .2s ease, -webkit-transform .2s .3s ease; /* delay the formation of the x till the minus is formed */
+      transition: top .2s ease, transform .2s .3s ease; /* delay the formation of the x till the minus is formed */
       top: 0;
       width: $button-size;
     }
