@@ -1,12 +1,12 @@
-<ul class="menu-item">
+<ul class="navbar-nav">
 	{% for link in site.data.navigation %}
     {% if link.url contains 'http' %}
         {% assign domain = '' %}
         {% else %}
         {% assign domain = site.url + site.baseurl %}
     {% endif %}
-    <li>
-      <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+    <li class="nav-item {% if page.url == link.url %}active{% endif %}">
+      <a href="{{ domain }}{{ link.url }}" class="nav-link">{{ link.title }}</a>
       <span class="line"></span>
       <span class="line2"></span>
       <div class="circle"></div>

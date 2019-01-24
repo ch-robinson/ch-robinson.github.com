@@ -17,6 +17,11 @@ sitemap: false
    Vendor
    ========================================================================== */
 
+@import "vendor/bootstrap/mixins";
+@import "vendor/bootstrap/functions";
+@import "vendor/bootstrap/nav";
+@import "vendor/bootstrap/navbar";
+@import "vendor/bootstrap/transitions";
 @import "vendor/bourbon/bourbon";
 @import "grid-settings";
 @import "vendor/neat/neat";
@@ -39,7 +44,6 @@ sitemap: false
 @import "badges";
 @import "tags";
 @import "bullets";
-@import "sliding-menu";
 @import "menu-navicons"; /* animated 3 line menu icon */
 @import "notices";
 @import "animations";
@@ -48,6 +52,7 @@ sitemap: false
 @import "toc"; /* table of contents */
 @import "breadcrumbs";
 @import "syntax";
+@import "navbar";
 
 /*
    Page specific

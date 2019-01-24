@@ -1,0 +1,114 @@
+// overrides from bootstrap 4.2 navbar
+
+.navbar {
+  background-color: $black;
+
+  .navbar-brand {
+    color: $white;
+    font-size: 1.2rem;
+
+    &:hover,
+    &:focus {
+      color: $color-blue-light;
+    }
+
+    & > img {
+      height: 40px;
+      width: auto;
+      margin-top: -5px;
+      margin-bottom: -5px;
+    }
+  }
+
+  .navbar-toggler.lines-button {
+    .nav-lines {
+      top: -4px;
+    }
+  }
+
+  .navbar-collapse {
+    li {
+      margin-bottom: 0;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .navbar-collapse.collapse {
+      display: block;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+
+      &.show {
+        max-height: 99em;
+        transition: max-height .5s ease-in-out;
+      }
+    }
+  }
+
+  .nav-item {
+    position: relative;
+    a {
+      color: $color-blue-light;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $white;
+      }
+    }
+
+    .circle {
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      border: 1px solid #fff;
+      background-color: #101820;
+      position: absolute;
+      bottom: -3px;
+      margin-left: -5px;
+      display: block;
+      opacity: 0;
+      left: 0;
+      transition: all 1.5s;
+      z-index: 10001;
+    }
+
+    .line {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #fff;
+      transition: all 0.6s;
+    }
+
+    .line2 {
+      position: absolute;
+      bottom: 4px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: #fff;
+      transition: all 0.9s;
+    }
+
+    &:hover {
+      .circle {
+        display: block;
+        transform: translateX(40px);
+        opacity: 1;
+      }
+
+      .line {
+        width: 100%;
+        background: #00A3E0;
+      }
+
+      .line2 {
+        width: 75%;
+        background: #0086D6;
+      }
+    }
+  }
+}
