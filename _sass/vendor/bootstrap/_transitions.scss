@@ -1,0 +1,22 @@
+// https://github.com/twbs/bootstrap/blob/793b83fda84da33e07adfab467a68dc649565401/scss/_transitions.scss
+
+.fade {
+  @include transition($transition-fade);
+
+  &:not(.show) {
+    opacity: 0;
+  }
+}
+
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  @include transition($transition-collapse);
+}

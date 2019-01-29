@@ -9,27 +9,36 @@
     }
   };
 
-  var jsMenuInit = function() {
-    // Off Canvas Sliding
+  var toggleTrueFalse = function(current) {
+    if (current === 'true') {
+      return 'false';
+    }
+    return 'true';
+  };
+
+  var navbarInit = function() {
     // Menu button click
-    var jsMenuTrigger = document.getElementById('js-menu-trigger');
-    var jsMenuScreen = document.getElementById('js-menu-screen');
-    var jsMenu = document.getElementById('js-menu');
+    var navbarToggle = document.getElementById('navbar-toggle');
+    var siteNavigation = document.getElementById('site-navigation');
 
     var handler = function(e) {
-      jsMenu.classList.toggle('is-visible');
-      jsMenuScreen.classList.toggle('is-visible');
-      jsMenuTrigger.classList.toggle('slide');
-      jsMenuTrigger.classList.toggle('close');
+      // animate hamburger
+      navbarToggle.classList.toggle('close');
+
+      // animate collapsed menu
+      siteNavigation.classList.toggle('show');
+
+      // update aria-expanded attribute
+      var ariaExpanded = navbarToggle.getAttribute('aria-expanded');
+      navbarToggle.setAttribute('aria-expanded', toggleTrueFalse(ariaExpanded));
       e.preventDefault();
     };
 
-    addHandler(jsMenuTrigger, ['click', 'touchstart'], handler);
-    addHandler(jsMenuScreen, ['click', 'touchstart'], handler);
+    addHandler(navbarToggle, ['click', 'touchstart'], handler);
   };
 
   document.addEventListener('DOMContentLoaded', function() {
-    jsMenuInit();
+    navbarInit();
 
     fluidvids.init({
       selector: ['iframe', 'object'],
