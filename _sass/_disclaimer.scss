@@ -1,6 +1,6 @@
 // adapted from https://stackoverflow.com/a/33931219/3928053
 .disclaimer {
-  .collapse > p {
+  .disclaimer-collapse > p {
     margin-bottom: 0;
   }
 
@@ -8,13 +8,13 @@
     display: none;
   }
 
-  #disclaimer-expand + .collapse {
+  #disclaimer-expand + .disclaimer-collapse {
     max-height: 52px;
     overflow: hidden;
     transition: all .3s ease;
   }
 
-  #disclaimer-expand:checked + .collapse {
+  #disclaimer-expand:checked + .disclaimer-collapse {
     max-height: 600px;
   }
 
