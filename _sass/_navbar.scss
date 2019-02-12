@@ -16,11 +16,19 @@
       color: $white;
     }
 
-    & > img {
+    > img {
       height: 40px;
       width: auto;
       margin-top: -4px;
       margin-bottom: -4px;
+    }
+
+    > .site-title {
+      margin-left: 0.25rem;
+
+      @include media(new-breakpoint(max-width em(400))) {
+        display: none;
+      }
     }
   }
 

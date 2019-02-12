@@ -168,6 +168,12 @@ figure {
       }
     }
   }
+  &.border {
+    img {
+      border: 2px solid darken($body-color, 5);
+      border-radius: $border-radius;
+    }
+  }
 }
 
 /* Figure captions */
