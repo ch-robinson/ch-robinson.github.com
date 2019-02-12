@@ -34,7 +34,7 @@ paginate_path: /blog/page/:num/
 owner:
   name: C.H. Robinson Engineering
   email:
-  twitter: CHRobinsonInc
+  twitter: CHRobinson
   google:
     ad-client:
     ad-slot:
