@@ -1,6 +1,7 @@
 {% assign author = include.author %}
 <div class="author-image">
   {% if author.gravatar %}<img src="https://gravatar.com/avatar/{{ author.gravatar }}?s=240" alt="{{ author.name }}">
+  {% elsif author.img %}{{ author.img }}
   {% else %}<img src="{{ site.url }}/images/bio-photo.png" style="width: auto;" alt="{{ author.name }}">{% endif %}
 </div><!-- ./author-image -->
 <div class="author-content">
