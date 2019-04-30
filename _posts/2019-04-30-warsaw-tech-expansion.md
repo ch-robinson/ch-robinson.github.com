@@ -1,6 +1,6 @@
 ---
 layout: article
-title: C.H. Robinson expands its technology center in Warsaw, Poland
+title: C.H. Robinson Expands Its Technology Center in Warsaw, Poland
 authors:
  - pattertj
 modified: 2019-04-30
