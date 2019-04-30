@@ -5,6 +5,7 @@
 {% if page.authors %}
 {% assign author = site.data.authors[page.authors.first] %}{% else %}{% assign author = site.owner %}
 {% endif %}
+<meta name="author" content="{{ author.name }}">
 {% include open-graph.html %}
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
