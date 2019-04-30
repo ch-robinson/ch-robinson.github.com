@@ -3,14 +3,14 @@ layout: article
 title: Hello FreightTech
 authors:
  - kollenglynn
-modified: 2019-04-29
+modified: 2019-04-30
 categories: culture
 excerpt: "I am happy to share my next move as a VP of Software Engineering at C.H. Robinson, the world's largest supply chain management and third-party logistics (3PL) company."
 tags: [Culture, Technology]
 disclaimer: true
 ---
 
-During my 20+ years in technology, I've worked on some exciting and challenging projects: from submarines to supersonic bombers at Rockwell and Boeing, from Windows XP Tablet PC to Dynamics 365 at Microsoft, and a couple of startups in between.
+During my nearly 25 years in software engineering, I've worked on some exciting and challenging projects: from submarines to supersonic bombers at Rockwell and Boeing, from the Windows XP Tablet PC to Dynamics 365 at Microsoft, and a couple of startups in between.
 
 I am happy to share my next move as a VP of Software Engineering at C.H. Robinson, one of the world's largest third-party logistics (3PL) providers.
 
