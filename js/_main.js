@@ -42,7 +42,7 @@
 
     fluidvids.init({
       selector: ['iframe', 'object'],
-      players: ['www.youtube.com', 'player.vimeo.com']
+      players: ['www.youtube.com', 'www.youtube-nocookie.com', 'player.vimeo.com']
     });
 
     // Table of Contents title. Change text to localize
