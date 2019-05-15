@@ -21,8 +21,7 @@ permalink: /series
     <p>{{ series.description }}</p>
     <ul>
       {% for post in series-posts %}
-      <li><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>:
-        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {% include post-list-item.html %}
       {% endfor %}
     </ul>
   {% endif %}

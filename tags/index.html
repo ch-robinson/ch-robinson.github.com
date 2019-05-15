@@ -30,11 +30,8 @@ permalink: /tags
       <ul>
         {% assign pages_list = tag[1] %}
           {% for post in pages_list %}
-              <li>
-                <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>:
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-              </li>
-            {% endfor %}
+            {% include post-list-item.html %}
+          {% endfor %}
           {% assign pages_list = nil %}
         {% assign group = nil %}
       </ul>
