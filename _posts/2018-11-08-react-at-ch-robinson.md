@@ -4,13 +4,9 @@ title: "React at C.H. Robinson"
 authors:
  - bremeva
 modified: 2018-11-08
-categories: technology
+categories: [technology]
 excerpt: "Consolidating our front-end technology stack around a community favorite has enabled us to move more quickly, together."
 tags: [React]
-image:
-  feature:
-  teaser:
-  thumb:
 disclaimer: true
 ---
 

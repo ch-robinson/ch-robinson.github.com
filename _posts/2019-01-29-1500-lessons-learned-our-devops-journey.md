@@ -4,15 +4,11 @@ title: "1500 Lessons Learned: Our DevOps Journey"
 authors:
  - miketintes
 modified: 2019-01-29
-categories: culture
+categories: [culture]
 excerpt:
   Scale fast, fail fast, automate everything, and hope
   you get lucky. DevOps lessons for the enterprise.
 tags: [DevOps, Transformation]
-image:
-  feature:
-  teaser:
-  thumb:
 disclaimer: true
 ---
 

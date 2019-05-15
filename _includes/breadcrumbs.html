@@ -5,10 +5,13 @@
       <span itemprop="title">Home</span>
     </a> ›
   </span>
+  {% for category in page.categories %}
   <span itemscope>
-    <a href="{{ site.url }}{{ site.baseurl }}/categories#{{ page.categories | first | downcase | replace: ' ','-' }}" itemprop="url">
-      <span itemprop="title">{{ page.categories | first | replace: '-',' ' | capitalize }}</span>
+    <a href="{{ site.url }}{{ site.baseurl }}/categories#{{ category | downcase | replace: ' ','-' }}" itemprop="url">
+      <span itemprop="title">{{ category | replace: '-',' ' | capitalize }}</span>
     </a>
   </span>
+  {% unless forloop.last %} ›{% endunless %}
+  {% endfor %}
 </nav><!-- /.breadcrumbs -->
 {% endif %}

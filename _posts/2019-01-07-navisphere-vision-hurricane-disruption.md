@@ -7,7 +7,7 @@ authors:
  - lairamy
  - fenkben
 modified: 2019-01-07
-categories: technology
+categories: [technology]
 excerpt:
   What happens when a team is given the chance to proactively anticipate their
   users' needs, attack a problem head on, and collaborate across roles to design
@@ -15,10 +15,6 @@ excerpt:
   our customers a new level of visibility into how hurricanes were impacting
   their supply chain.
 tags: [Navisphere Vision, Data Science]
-image:
-  feature:
-  teaser:
-  thumb:
 disclaimer: true
 ---
 

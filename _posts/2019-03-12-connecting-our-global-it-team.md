@@ -4,13 +4,9 @@ title: "Slack: Connecting Our Global IT Team"
 authors:
  - engblogcomm
 modified: 2019-03-12
-categories: culture
+categories: [culture]
 excerpt: "With the help of Slack, we’re able to share what we’ve learned, connect better with the people that we work with, and cut down on more than 6,000 emails every week."
 tags: [Communication, Slack, Technology]
-image:
-  feature:
-  teaser:
-  thumb:
 disclaimer: true
 ---
 

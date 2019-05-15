@@ -2,10 +2,6 @@
 layout: article
 title: "Who Are We?"
 excerpt: A description of who CHRITters are.
-image:
-  feature:
-  teaser:
-  thumb:
 share: false
 ---
 
