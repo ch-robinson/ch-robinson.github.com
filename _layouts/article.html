@@ -15,6 +15,7 @@ layout: default
 		{% include breadcrumbs.html %}
 		<div class="page-title">
 			<h1>{{ page.title }}</h1>
+      <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
 		</div>
     {% if page.series %}{% include series.html %}{% endif %}
 		<div class="inner-wrap">
