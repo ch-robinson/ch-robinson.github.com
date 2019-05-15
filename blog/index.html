@@ -18,7 +18,7 @@ title: Archive
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<nav class="pagination">
   {% if paginator.previous_page %}
   <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
   {% else %}
@@ -40,7 +40,5 @@ title: Archive
   {% else %}
   <span>Next &raquo;</span>
   {% endif %}
-</div>
+</nav>
 {% endif %}
-
-
