@@ -4,15 +4,13 @@ title: "Inner Sourcing & DevOps at C.H. Robinson Featured at Open Source North"
 authors:
  - pattertj
 modified: 2018-07-02
-categories: conference
+categories: [conference]
 excerpt: 'On June 14, more than 550 enterprise developers and industry experts came together to learn, share, and
           connect on the topic of Open Source. C.H. Robinson was well represented at the sold out conference, "Open
           Source and the Enterprise," Open Source North with more than 20 attendees and two speakers.'
 tags: [Open Source, Technology, Conferences]
 image:
   feature: posts/2018/osn-banner.jpg
-  teaser:
-  thumb:
 disclaimer: true
 ---
 

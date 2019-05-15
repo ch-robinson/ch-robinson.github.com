@@ -4,13 +4,9 @@ title: "C.H. Robinson Collaboration Case Study"
 authors:
  - pattertj
 modified: 2018-07-18
-categories: publication
+categories: [publication]
 excerpt: "We're harnessing the power of the other developers across the world who think the project is super cool and can help make it happen. That is what makes our IT world great."
 tags: [Technology, GitHub]
-image:
-  feature:
-  teaser:
-  thumb:
 disclaimer: true
 ---
 

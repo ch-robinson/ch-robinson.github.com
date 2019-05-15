@@ -4,7 +4,7 @@ title: Hello FreightTech
 authors:
  - kollenglynn
 modified: 2019-04-30
-categories: culture
+categories: [culture]
 excerpt: "I am happy to share my next move as a VP of Software Engineering at C.H. Robinson, the world's largest supply chain management and third-party logistics (3PL) company."
 tags: [Culture, Technology]
 image:

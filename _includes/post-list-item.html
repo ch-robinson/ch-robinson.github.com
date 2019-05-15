@@ -1,0 +1,5 @@
+<li>
+  <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>:
+  <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+  <small>{% include author-names-string.html authors=post.authors %}</small>
+</li>

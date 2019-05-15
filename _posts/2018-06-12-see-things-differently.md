@@ -4,16 +4,12 @@ title: "See Things Differently"
 authors:
  - jddefauw
 modified: 2018-06-12
-categories: culture
+categories: [culture]
 excerpt: "Are you drowning in a sea of buzzwords: Agile, Digital Transformation, Microservice Architecture, Data Science,
           Message Brokers, Open Source, Machine Learning, User-Centered Design, Cloud, DevOps, Streaming, Big Data, Observability,
           Containerization; and wondering how to make sense of it all? Well the good news is you are not alone. We at
           C.H. Robinson are also inundated with the same deluge of information."
 tags: [Culture]
-image:
-  feature:
-  teaser:
-  thumb:
 disclaimer: true
 ---
 

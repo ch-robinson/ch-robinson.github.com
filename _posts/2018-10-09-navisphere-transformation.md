@@ -4,13 +4,9 @@ title: "Navisphere Transformation"
 authors:
  - nickgoble
 modified: 2018-10-09
-categories: technology
+categories: [technology]
 excerpt: "Take a look at how we transformed our primary customer-facing application."
 tags: [Navisphere, Transformation]
-image:
-  feature:
-  teaser:
-  thumb:
 disclaimer: true
 ---
 

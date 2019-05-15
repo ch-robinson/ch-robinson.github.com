@@ -4,13 +4,9 @@ title: First Steps into Open Source Software
 authors:
  - bremeva
 modified: 2018-11-27
-categories: technology
+categories: [technology]
 excerpt: "Creating something brand new and novel? Take that first step toward MVP, and then iterate. Refactoring a crufty old service? Take that first step, strangling it over time by refactoring piece by piece. Want to start contributing to the open source software community? Take that first step..."
 tags: [Open Source]
-image:
-  feature:
-  teaser:
-  thumb:
 disclaimer: true
 ---
 
