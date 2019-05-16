@@ -3,7 +3,6 @@ layout: article
 title: Linking a Series of Jekyll Posts
 authors:
  - brianmitchell
-modified: 2019-02-12
 categories: [how-to]
 excerpt: When we (the Engineering Blog committee here at C.H. Robinson) were working on the Mobile Apps Battery
          Management series, we were looking for a way to link a group of similar posts into a multi-post

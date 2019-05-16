@@ -6,7 +6,6 @@ authors:
  - dietmim
  - lairamy
  - fenkben
-modified: 2019-01-07
 categories: [technology]
 excerpt:
   What happens when a team is given the chance to proactively anticipate their

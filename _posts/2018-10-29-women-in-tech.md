@@ -5,7 +5,6 @@ authors:
  - maikim
  - fullama
  - wolfnata
-modified: 2018-10-29
 categories: [culture]
 excerpt:
   What began as a Slack channel for women in IT to share their experiences, post articles, and ask

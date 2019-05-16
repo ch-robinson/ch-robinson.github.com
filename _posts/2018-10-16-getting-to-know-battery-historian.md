@@ -3,7 +3,6 @@ layout: article
 title: "Getting to know Battery Historian"
 authors:
  - bradjewell
-modified: 2018-10-16
 categories: [Mobile]
 excerpt: "You understand Battery Management and Why It Matters, but now you need to know how much of an impact does your app have on a device. To do that you'll need to be able to measure power consumption and resource utilization. Thankfully, for Android, there is a powerful tool to do just that."
 tags: [Android, Battery, Background Processing]

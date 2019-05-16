@@ -3,7 +3,6 @@ layout: article
 title: "Hackamania 4"
 authors:
  - carlnei
-modified: 2018-09-18
 categories: [culture]
 excerpt:
   Hackamania is an annual internal hackathon that takes place in May in the IT department. It consists of projects using 

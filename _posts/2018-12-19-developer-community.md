@@ -3,7 +3,6 @@ layout: article
 title: "The Developer Community at C.H. Robinson"
 authors:
  - gregdrozdek
-modified: 2018-12-19
 categories: [culture]
 excerpt: "The Developer Community (DevComm) at C.H. Robinson hosts a variety of different knowledge sharing events and facilitates fun and informational interactions amongst developers."
 tags: [Culture, Learning]
