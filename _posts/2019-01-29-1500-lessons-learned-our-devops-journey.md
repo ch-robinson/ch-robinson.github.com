@@ -3,7 +3,6 @@ layout: article
 title: "1500 Lessons Learned: Our DevOps Journey"
 authors:
  - miketintes
-modified: 2019-01-29
 categories: [culture]
 excerpt:
   Scale fast, fail fast, automate everything, and hope

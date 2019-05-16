@@ -3,7 +3,6 @@ layout: article
 title: "See Things Differently"
 authors:
  - jddefauw
-modified: 2018-06-12
 categories: [culture]
 excerpt: "Are you drowning in a sea of buzzwords: Agile, Digital Transformation, Microservice Architecture, Data Science,
           Message Brokers, Open Source, Machine Learning, User-Centered Design, Cloud, DevOps, Streaming, Big Data, Observability,

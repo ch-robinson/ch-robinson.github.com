@@ -11,11 +11,8 @@ image:
   {% for post in site.posts limit:5 %}
   <h2 class="post-title" itemprop="name"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title |
     escape_once }}</a></h2>
-  {% if post.date %}
-  <time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>
-  {% endif %}
-  <small>{% include author-names-string.html authors=post.authors %}</small>
-  <p class="post-excerpt">
+  {% include page-meta.html page=post %}
+  <p class="post-excerpt" itemprop="description">
     {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.excerpt %}{{
     post.excerpt | strip_html | escape }}{% endif %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>Read More</strong></a>

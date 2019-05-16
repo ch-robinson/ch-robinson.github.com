@@ -3,7 +3,6 @@ layout: article
 title: C.H. Robinson Expands Its Technology Center in Warsaw, Poland
 authors:
  - pattertj
-modified: 2019-04-30
 categories: [culture]
 excerpt: C.H. Robinson has long been a worldwide company with IT and business offices across the globe. But recently we announced plans to add over one hundred IT professionals in Warsaw, Poland.
 tags: [Culture]

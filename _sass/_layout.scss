@@ -88,6 +88,27 @@
 	.page-title {
 		@include fill-parent;
 	}
+  @at-root {
+    .page-meta,
+    .page-content,
+    .page-footer {
+      a { text-decoration: none; }
+      p a,
+      li a,
+      .pagination a {
+        border-bottom: 1px dotted lighten($link-color, 50);
+        &:hover {
+          border-bottom-style: solid;
+        }
+      }
+      p > a.reversefootnote {
+        border-bottom-width: 0;
+      }
+    }
+    .page-footer {
+      @include fill-parent;
+    }
+  };
 	@at-root {
 		.page-content {
 			@include fill-parent;
@@ -97,32 +118,11 @@
 					@include font-size(20,yes,30);
 				}
 			}
-			// cleaner underlines for links
-			a { text-decoration: none; }
-			p a,
-			li a,
-      .pagination a {
-				border-bottom: 1px dotted lighten($link-color, 50);
-				&:hover {
-					border-bottom-style: solid;
-				}
-			}
-			p > a.reversefootnote {
-				border-bottom-width: 0;
-			}
       .toc li > a {
         border-bottom-width: 0;
       }
-			.page-footer,
 			.pagination {
 				@include fill-parent;
-			}
-			.page-meta {
-				p{
-					@include font-size(14,no);
-					font-family: $alt-font;
-					color: lighten($black,30);
-				}
 			}
 		}
 	}

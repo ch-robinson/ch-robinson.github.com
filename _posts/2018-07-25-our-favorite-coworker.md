@@ -4,7 +4,6 @@ title: "Our Favorite Coworker"
 authors:
  - miketintes
  - brianmitchell
-modified: 2018-07-25
 categories: [culture]
 excerpt: "How does a hubot instance automate tasks and promote workplace culture? Meet Charlie."
 tags: [Hubot, Charlie]

@@ -1,3 +1,9 @@
-{% if page.date %}<div class="page-meta">
-	<p>{{ site.data.messages.locales[site.locale].updated }} {% if page.modified %}<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% else %}<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
-</div><!-- /.page-meta -->{% endif %}
+{% if include.page %} {% assign realPage = include.page %} {% else %}
+{% assign realPage = page %} {% endif %}
+
+{% if realPage.date %}
+<div class="page-meta">
+  <time datetime="{{ realPage.date | date_to_xmlschema }}" itemprop="datePublished">{{ realPage.date | date: "%B %d, %Y" }}</time>
+  {% if realPage.authors %}• <span itemprop="author">{% include author-names-string.html authors=realPage.authors %}</span>{% endif %}
+</div>
+{% endif %}

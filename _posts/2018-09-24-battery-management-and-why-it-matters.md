@@ -3,7 +3,6 @@ layout: article
 title: "Battery Management and Why it Matters"
 authors:
  - bradjewell
-modified: 2018-09-24
 categories: [Mobile]
 excerpt: "At C.H. Robinson, our mobile team applies tools and practices to achieve the desired results of our mobile apps while conserving the user's battery. Our mission is to provide value to our end users while maintaining an undetectable impact to their battery and data usage."
 tags: [Android, iOS, Battery, Background Processing]
