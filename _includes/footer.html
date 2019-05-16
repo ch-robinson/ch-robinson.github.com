@@ -7,7 +7,7 @@
         {% if link.url contains 'http' %}
           {% assign domain = '' %}
         {% else %}
-          {% assign domain = '/' | absolute_url %}
+          {% assign domain = '' | absolute_url %}
         {% endif %}
         <a href="{{ domain }}{{ link.url }}" rel="nofollow">{{ link.title }}</a>{% unless forloop.last %}&nbsp;&nbsp;|&nbsp;&nbsp;{% endunless %}
       {%- endfor -%}
