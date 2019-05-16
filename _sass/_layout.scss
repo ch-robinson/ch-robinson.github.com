@@ -244,26 +244,28 @@
    ========================================================================== */
 
 #site-footer {
-	@include outer-container;
-	margin-top: (3 * (0px + $doc-line-height));
-	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
-	padding-bottom: $gutter;
-	font-family: $alt-font;
-	.legal {
-		color: lighten($black,30);
-		border-top: 1px #e1e4e8 solid !important;
-		/* Copyright text */
-		.copyright {
-			a {
-				text-decoration: none;
-			}
-		}
-		p {
-			@include font-size(12);
-			line-height: normal;
-		}
-    @import "_disclaimer";
-	}
+	margin-top: 40px;
+  padding: 40px $gutter 0;
+  background: $black;
+  color: $white;
+
+  a {
+    text-decoration: none;
+    color: $color-blue-light;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    @include font-size(14);
+    line-height: normal;
+    margin: 0 0 20px;
+  }
+
+  @import "_disclaimer";
 }
 
 .mobile {
