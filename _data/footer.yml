@@ -1,10 +1,16 @@
 # Footer navigation links
 
-- title: "Built w/ Skinny Bones"
-  url: https://github.com/mmistakes/skinny-bones-jekyll
+- title: About
+  url: who-we-are/
 
-- title: "On Jekyll"
-  url: https://jekyllrb.com/
+- title: Archive
+  url: blog/
 
-- title: "For C.H. Robinson"
-  url: https://www.chrobinson.com
+- title: Careers
+  url: https://www.chrobinson.com/en-us/careers/
+
+- title: Investors
+  url: https://www.chrobinson.com/en-us/about-us/investors/
+
+- title: C.H. Robinson
+  url: https://www.chrobinson.com/

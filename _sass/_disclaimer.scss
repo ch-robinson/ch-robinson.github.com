@@ -1,7 +1,7 @@
 // adapted from https://stackoverflow.com/a/33931219/3928053
 .disclaimer {
   .disclaimer-collapse > p {
-    margin-bottom: 0;
+    @include font-size(14, no, 1.42857143);
   }
 
   #disclaimer-expand {
@@ -9,7 +9,7 @@
   }
 
   #disclaimer-expand + .disclaimer-collapse {
-    max-height: 52px;
+    max-height: 58px;
     overflow: hidden;
     transition: all .3s ease;
   }
@@ -19,7 +19,7 @@
   }
 
   label {
-    color: rgb(154, 154, 154);
+    color: $color-gray-light;
     text-decoration: underline;
     cursor: pointer;
   }
@@ -28,4 +28,3 @@
     text-decoration: none;
   }
 }
-

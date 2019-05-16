@@ -3,18 +3,15 @@
   <head>
     {% include head.html %}
   </head>
-
-  <body id="js-body">
+  <body>
     {% include browser-upgrade.html %}
     {% include header.html %}
 
     <div id="page-wrapper">
       {{ content }}
-      {% include footer.html %}
     </div>
 
+    {% include footer.html %}
     {% include scripts.html %}
-
   </body>
-
 </html>
