@@ -9,8 +9,7 @@
 body {
 	font-family: $base-font;
 	color: $text-color;
-	@include font-size(16);
-  margin: 0;
+	@include font-size(16, no);
 }
 
 p {
