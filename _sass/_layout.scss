@@ -108,6 +108,9 @@
     .page-footer {
       @include fill-parent;
     }
+    .page-meta {
+      color: lighten($text-color,25);
+    }
   };
 	@at-root {
 		.page-content {
