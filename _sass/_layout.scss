@@ -145,7 +145,9 @@
 	background-repeat: no-repeat;
 	text-align: center;
 	color: $white;
-	@include media($large) {
+  margin-right: -$gutter;
+  margin-left: -$gutter;
+  @include media($large) {
 		background-size: cover;
 	}
 }

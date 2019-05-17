@@ -1,42 +1,55 @@
 ---
-layout: home
+layout: default
 permalink: /
-image:
-  feature: chr-homepage.jpg
 ---
 
-<h2>Latest Posts</h2>
+<div class="page-lead" style="background-image:url({{ '/images/chr-homepage.jpg' | absolute_url }})">
+  <div class="wrap page-lead-content">
+    <h1>C.H. Robinson Engineering Blog</h1>
+    <a href="{{ '/who-we-are/' | absolute_url }}" class="btn-transparent">Who We Are</a> &nbsp; or &nbsp; <a href="https://github.com/ch-robinson" class="btn-transparent">Visit Us on GitHub</a>
+  </div>
+</div>
 
-<section class="inner-wrap">
-  {% for post in site.posts limit:5 %}
-    {% include post-list.html %}
-  {% endfor %}
-</section>
+<main id="main" role="main">
+  <div class="wrap">
+    <div class="archive-wrap">
+      <div class="page-content">
+        <h2>Latest Posts</h2>
 
-<aside>
-  <section class="entry">
-    <h2><a href="https://developer.chrobinson.com/">API Portal</a></h2>
-    <p>Welcome to the API Portal. The API Portal documents the rich API that customers can use to
-      interact with the Navisphere Platform.</p>
-    <p>
-      <a href="https://developer.chrobinson.com/"><i class="fa fa-chevron-right"></i>&nbsp;Learn More</a>
-    </p>
-  </section><!-- /.entry -->
+        <section class="inner-wrap">
+          {% for post in site.posts limit:5 %}
+            {% include post-list.html %}
+          {% endfor %}
+        </section>
 
-  <section class="entry">
-    <h2><a href="https://www.chrobinson.com/en-us/about-us/technology/">C.H. Robinson Technology</a></h2>
-    <p>We invest in delivering and implementing flexible, efficient, and integrated technology
-      solutions that connect all aspects of your supply chain.</p>
-    <p>
-      <a href="https://www.chrobinson.com/en-us/about-us/technology/"><i class="fa fa-chevron-right"></i>&nbsp;Learn More</a>
-    </p>
-  </section><!-- /.entry -->
+        <aside>
+          <section class="entry">
+            <h2><a href="https://developer.chrobinson.com/">API Portal</a></h2>
+            <p>Welcome to the API Portal. The API Portal documents the rich API that customers can use to
+              interact with the Navisphere Platform.</p>
+            <p>
+              <a href="https://developer.chrobinson.com/"><i class="fa fa-chevron-right"></i>&nbsp;Learn More</a>
+            </p>
+          </section><!-- /.entry -->
 
-  <section class="entry">
-    <h2 class="post-title"><a href="https://github.com/ch-robinson">GitHub</a></h2>
-    <p>Check out our open source projects.</p>
-    <p>
-      <a href="https://github.com/ch-robinson"><i class="fa fa-chevron-right"></i>&nbsp;Learn More</a>
-    </p>
-  </section><!-- /.entry -->
-</aside>
+          <section class="entry">
+            <h2><a href="https://www.chrobinson.com/en-us/about-us/technology/">C.H. Robinson Technology</a></h2>
+            <p>We invest in delivering and implementing flexible, efficient, and integrated technology
+              solutions that connect all aspects of your supply chain.</p>
+            <p>
+              <a href="https://www.chrobinson.com/en-us/about-us/technology/"><i class="fa fa-chevron-right"></i>&nbsp;Learn More</a>
+            </p>
+          </section><!-- /.entry -->
+
+          <section class="entry">
+            <h2 class="post-title"><a href="https://github.com/ch-robinson">GitHub</a></h2>
+            <p>Check out our open source projects.</p>
+            <p>
+              <a href="https://github.com/ch-robinson"><i class="fa fa-chevron-right"></i>&nbsp;Learn More</a>
+            </p>
+          </section><!-- /.entry -->
+        </aside>
+      </div>
+    </div>
+  </div>
+</main>
