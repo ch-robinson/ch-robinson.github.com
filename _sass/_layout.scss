@@ -108,6 +108,9 @@
     .page-footer {
       @include fill-parent;
     }
+    .page-meta {
+      color: lighten($text-color,25);
+    }
   };
 	@at-root {
 		.page-content {
@@ -233,6 +236,18 @@
 }
 .author-name {
 	@include font-size(20,no);
+  a {
+    border-bottom: 1px solid transparent;
+
+    &:hover,
+    &:active {
+      border-bottom: 1px solid lighten($link-color, 50);
+    }
+
+    .fa.fa-external-link {
+      @include font-size(14,no);
+    }
+  }
 }
 .author-bio {
 	margin-top: 0;
@@ -281,11 +296,9 @@
 aside {
   position: relative;
   float: right;
-  //margin-top: $gutter;
   margin-left: -$gutter;
   margin-right: -$gutter;
-  //padding: 10px 0 20px;
-  background: lighten($border-color,10);
+  background: lighten($border-color,5);
   @include media($medium) {
     @include span-columns(3);
     margin-left: 0;
@@ -293,14 +306,51 @@ aside {
   }
 
   .entry {
-    margin-left: $gutter;
-    margin-right: $gutter;
+    margin: $gutter;
+
+    p {
+      margin-bottom: 0.75rem;
+
+      a {
+        text-decoration: none;
+        border-bottom: 1px dotted lighten($link-color, 50);
+        &:hover {
+          border-bottom-style: solid;
+        }
+      }
+    }
   }
 }
 
 .clearfix {
   @include clearfix;
 }
+
+/*
+   Article Preview
+   ========================================================================== */
+
+.article-preview {
+  #{headings(1,6)} {
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+
+  &:first-child {
+    #{headings(1,6)} {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+
+    & + p {
+      margin-top: 0;
+    }
+  }
+}
+
 
 /*
    Article Tags
@@ -323,8 +373,6 @@ aside.series {
   position: relative;
   margin-top: $gutter;
   padding: 20px;
-  background: lighten($border-color,5);
-  border: 1px solid $border-color;
   float: none;
   @include media($medium) {
     @include span-columns(3);

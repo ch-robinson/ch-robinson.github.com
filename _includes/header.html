@@ -13,6 +13,20 @@
     <span class="nav-lines"></span>
   </button>
   <div class="navbar-collapse collapse" id="site-navigation">
-    {% include navigation.html %}
+    <ul class="navbar-nav">
+      {%- for link in site.data.navigation -%}
+        {%- if link.url contains 'http' -%}
+          {%- assign domain = '' -%}
+        {%- else -%}
+          {%- assign domain = site.url + site.baseurl -%}
+        {%- endif -%}
+        <li class="nav-item {% if page.url == link.url %}active{% endif %}">
+          <a href="{{ domain }}{{ link.url }}" class="nav-link">{{ link.title }}</a>
+          <span class="line"></span>
+          <span class="line2"></span>
+          <div class="circle"></div>
+        </li>
+      {%- endfor -%}
+    </ul>
   </div>
 </nav>

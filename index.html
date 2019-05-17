@@ -5,37 +5,38 @@ image:
   feature: chr-homepage.jpg
 ---
 
-<h1>Latest Posts</h1>
+<h2>Latest Posts</h2>
 
 <section class="inner-wrap">
   {% for post in site.posts limit:5 %}
-  <h2 class="post-title" itemprop="name"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title |
-    escape_once }}</a></h2>
-  {% include page-meta.html page=post %}
-  <p class="post-excerpt" itemprop="description">
-    {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.excerpt %}{{
-    post.excerpt | strip_html | escape }}{% endif %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>Read More</strong></a>
-  </p>
-  {% unless forloop.last %}<hr>{% endunless %}
+    {% include post-list.html %}
   {% endfor %}
 </section>
 
 <aside>
-  <div class="entry">
+  <section class="entry">
     <h2><a href="https://developer.chrobinson.com/">API Portal</a></h2>
     <p>Welcome to the API Portal. The API Portal documents the rich API that customers can use to
       interact with the Navisphere Platform.</p>
-  </div><!-- /.entry -->
+    <p>
+      <a href="https://developer.chrobinson.com/"><i class="fa fa-chevron-right"></i>&nbsp;Learn More</a>
+    </p>
+  </section><!-- /.entry -->
 
-  <div class="entry">
+  <section class="entry">
     <h2><a href="https://www.chrobinson.com/en-us/about-us/technology/">C.H. Robinson Technology</a></h2>
     <p>We invest in delivering and implementing flexible, efficient, and integrated technology
       solutions that connect all aspects of your supply chain.</p>
-  </div><!-- /.entry -->
+    <p>
+      <a href="https://www.chrobinson.com/en-us/about-us/technology/"><i class="fa fa-chevron-right"></i>&nbsp;Learn More</a>
+    </p>
+  </section><!-- /.entry -->
 
-  <div class="entry">
+  <section class="entry">
     <h2 class="post-title"><a href="https://github.com/ch-robinson">GitHub</a></h2>
-    <p class="post-excerpt">Visit us on GitHub.</p>
-  </div><!-- /.entry -->
+    <p>Check out our open source projects.</p>
+    <p>
+      <a href="https://github.com/ch-robinson"><i class="fa fa-chevron-right"></i>&nbsp;Learn More</a>
+    </p>
+  </section><!-- /.entry -->
 </aside>

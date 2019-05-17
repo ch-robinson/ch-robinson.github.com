@@ -10,21 +10,40 @@
 	display: inline-block;
 	padding: 8px 20px;
 	@include font-size(14);
-	font-family: $alt-font;
-	background-color: $primary-color;
+	background-color: $color-blue-light;
 	color: $white;
 	text-decoration: none;
-	border: 0 !important;
-	border-radius: 10 * $border-radius;
-	@include transition(background 0.2s, border 0.2s);
+	border: 1px solid $color-blue-light;
+	@include transition(background 0.2s, border 0.2s, color 0.2s);
 	&:hover {
-		color: $white;
-		background-color: lighten($primary-color, 10);
+		color: $color-blue-light;
+		background-color: $white;
+    border-color: $color-blue-light;
 	}
 	&:active {
 		// move button slightly on click
 		@include transform(translateY(1px));
 	}
+}
+
+/*
+   Transparent button .btn-transparent
+   ========================================================================== */
+
+.btn-transparent {
+  @extend .btn;
+  background-color: transparent;
+  color: $white;
+  border-color: $white;
+  &:visited {
+    color: $white;
+  }
+  &:hover,
+  &:active {
+    color: $white;
+    background-color: $color-blue-light;
+    border-color: $color-blue-light;
+  }
 }
 
 /*
@@ -34,14 +53,16 @@
 .btn-inverse {
 	@extend .btn;
 	background-color: $white;
+  border-color: $white;
 	color: $text-color;
-	&:visited,
-	&:active {
+	&:visited {
 		color: $text-color;
 	}
-	&:hover {
+	&:hover,
+  &:active {
 		color: $white;
 		background-color: $text-color;
+    border-color: $white;
 	}
 }
 
@@ -52,12 +73,16 @@
 .btn-info {
 	@extend .btn;
 	background-color: $info-color;
+  border-color: $info-color;
 	color: $white;
 	&:visited {
 		color: $white;
 	}
-	&:hover {
+  &:hover,
+  &:active {
+    color: $white;
 		background-color: lighten($info-color, 10);
+    border-color: lighten($info-color, 10);
 	}
 }
 
@@ -68,12 +93,16 @@
 .btn-warning {
 	@extend .btn;
 	background-color: $warning-color;
+  border-color: $warning-color;
 	color: $white;
 	&:visited {
 		color: $white;
 	}
-	&:hover {
+  &:hover,
+  &:active {
+    color: $white;
 		background-color: lighten($warning-color ,10);
+    border-color: lighten($warning-color ,10);
 	}
 }
 
@@ -84,12 +113,16 @@
 .btn-success {
 	@extend .btn;
 	background-color: $success-color;
+  border-color: $success-color;
 	color: $white;
 	&:visited {
 		color: $white;
 	}
-	&:hover {
-		background-color:lighten($success-color, 10);
+  &:hover,
+  &:active {
+    color: $white;
+		background-color: lighten($success-color, 10);
+    border-color: lighten($success-color, 10);
 	}
 }
 
@@ -100,12 +133,16 @@
 .btn-danger {
 	@extend .btn;
 	background-color: $danger-color;
+  border-color: $danger-color;
 	color: $white;
 	&:visited {
 		color: $white;
 	}
-	&:hover {
+  &:hover,
+  &:active {
+    color: $white;
 		background-color: lighten($danger-color, 10);
+    border-color: lighten($danger-color, 10);
 	}
 }
 
@@ -139,11 +176,10 @@
 	    color: $color;
     }
 	}
-	&:hover {
-		color: $white !important;
-	}
 	@each $socialnetwork, $color in $social {
-		&.#{$socialnetwork}:hover {
+		&.#{$socialnetwork}:hover,
+    &.#{$socialnetwork}:active {
+      color: $white !important;
 	    background: $color;
 	    border-color: $color;
 	    @each $socialnetwork, $color in $social {

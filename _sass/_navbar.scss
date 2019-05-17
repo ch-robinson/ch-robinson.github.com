@@ -1,15 +1,22 @@
 // overrides from bootstrap 4.2 navbar
 
 .navbar {
+  font-family: $alt-font;
   background-color: $black;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  a, span {
+    transition: none;
+  }
 
   .navbar-brand {
     color: $color-blue-light;
     font-size: 1.2rem;
-
-    &.active {
-      color: $white;
-    }
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 
     &:hover,
     &:focus {
@@ -17,14 +24,13 @@
     }
 
     > img {
-      height: 40px;
+      height: 46px;
       width: auto;
-      margin-top: -4px;
-      margin-bottom: -4px;
     }
 
     > .site-title {
       margin-left: 0.25rem;
+      vertical-align: middle;
 
       @include media(new-breakpoint(max-width em(400))) {
         display: none;
@@ -39,15 +45,11 @@
   }
 
   .navbar-collapse {
+    ul {
+      margin-left: auto;
+    }
     li {
       margin-bottom: 0;
-    }
-
-    &.show {
-      li {
-        margin-top: .5rem;
-        margin-bottom: .5rem;
-      }
     }
   }
 
@@ -70,7 +72,7 @@
     position: relative;
     line-height: 0.9;
 
-    &.active a.nav-link,
+    a.nav-link,
     a.nav-link:hover {
       color: $white;
     }
@@ -78,6 +80,10 @@
     a.nav-link {
       color: $color-blue-light;
       text-transform: uppercase;
+      font-weight: 700;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      @include font-size(14, no, 1);
     }
 
     .circle {
