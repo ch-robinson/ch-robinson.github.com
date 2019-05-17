@@ -331,17 +331,18 @@ aside {
    ========================================================================== */
 
 .article-preview {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  #{headings(1,6)} {
     margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
-  P {
+  &:first-child {
+    #{headings(1,6)} {
+      margin-top: 0;
+    }
+  }
+
+  p {
     margin-bottom: 0.75rem;
 
     & + p {

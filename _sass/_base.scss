@@ -27,22 +27,22 @@ li {
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 h1 {
-	@include font-size(36);
+	@include font-size(36, yes, 20);
 }
 h2 {
-	@include font-size(32);
+	@include font-size(32, yes, 20);
 }
 h3 {
-	@include font-size(28);
+	@include font-size(28, yes, 20);
 }
 h4 {
-	@include font-size(24);
+	@include font-size(24, yes, 20);
 }
 h5 {
-	@include font-size(20);
+	@include font-size(20, yes, 20);
 }
 h6 {
-	@include font-size(18);
+	@include font-size(18, yes, 20);
 }
 
 /* Underlined text */
