@@ -1,0 +1,13 @@
+<article class="article-preview" itemscope itemtype="https://schema.org/Article">
+  <h3 itemprop="name"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | escape_once }}</a></h3>
+  {% include page-meta.html page=post %}
+  <p itemprop="description">
+    {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.excerpt %}{{
+    post.excerpt | strip_html | escape }}{% endif %}
+  </p>
+  <p>
+    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}">
+      <i class="fa fa-chevron-right"></i>&nbsp;Read More
+    </a>
+  </p>
+</article>

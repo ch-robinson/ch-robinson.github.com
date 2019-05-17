@@ -67,6 +67,10 @@ a {
 	&:active {
 		outline: 0;
 	}
+
+  & > .fa.fa-chevron-right {
+    font-size: 0.75rem;
+  }
 }
 
 /* Quoted text */

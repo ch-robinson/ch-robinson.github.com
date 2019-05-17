@@ -281,11 +281,9 @@
 aside {
   position: relative;
   float: right;
-  //margin-top: $gutter;
   margin-left: -$gutter;
   margin-right: -$gutter;
-  //padding: 10px 0 20px;
-  background: lighten($border-color,10);
+  background: lighten($border-color,5);
   @include media($medium) {
     @include span-columns(3);
     margin-left: 0;
@@ -293,14 +291,50 @@ aside {
   }
 
   .entry {
-    margin-left: $gutter;
-    margin-right: $gutter;
+    margin: $gutter;
+
+    p {
+      margin-bottom: 0.75rem;
+
+      a {
+        text-decoration: none;
+        border-bottom: 1px dotted lighten($link-color, 50);
+        &:hover {
+          border-bottom-style: solid;
+        }
+      }
+    }
   }
 }
 
 .clearfix {
   @include clearfix;
 }
+
+/*
+   Article Preview
+   ========================================================================== */
+
+.article-preview {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  P {
+    margin-bottom: 0.75rem;
+
+    & + p {
+      margin-top: 0;
+    }
+  }
+}
+
 
 /*
    Article Tags
@@ -323,8 +357,6 @@ aside.series {
   position: relative;
   margin-top: $gutter;
   padding: 20px;
-  background: lighten($border-color,5);
-  border: 1px solid $border-color;
   float: none;
   @include media($medium) {
     @include span-columns(3);
