@@ -35,9 +35,9 @@
   @extend .btn;
   background-color: transparent;
   color: $white;
+  border-color: $white;
   &:visited {
     color: $white;
-    border-color: $white;
   }
   &:hover,
   &:active {
