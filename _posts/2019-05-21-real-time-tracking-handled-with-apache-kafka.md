@@ -10,7 +10,6 @@ tags: [Tracking, Apache Kafka, Technology]
 disclaimer: true
 ---
 
-## All Customers Want Visibility
 Visibility is a crucial factor when it comes to making customers happy. For example, when you order a pizza from Domino's online, the entire process is visualized for you so you know what to expect. Amazon goes a step further by giving you a tracking code to monitor a package's stops along the way before it reaches your front door. C.H. Robinson customers should be able to track their product's location at all times. This requires us to handle a consistent flow of location updates from trucks, vessel, intermodal and air units around the world.
 
 ## The Challenge
