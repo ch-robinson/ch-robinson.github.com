@@ -4,9 +4,10 @@
 {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 {% if page.authors %}
-{% assign author = site.data.authors[page.authors.first] %}{% else %}{% assign author = site.owner %}
+<meta name="author" content="{% include author-names-string.html authors=page.authors %}">
+{% else %}
+<meta name="author" content="{{ site.owner.name }}">
 {% endif %}
-<meta name="author" content="{{ author.name }}">
 {% include open-graph.html %}
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
