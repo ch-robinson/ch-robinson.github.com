@@ -4,7 +4,6 @@ title: "Building a Better User Experience: Freightquote by C.H. Robinson"
 authors:
  - nickgoble
  - carlnei
-modified: 2019-06-13
 categories: [technology]
 tags: [Freightquote, Logistics]
 disclaimer: true
