@@ -119,3 +119,12 @@ twitros:
 hanspen:
   name: Spencer Hanson
   gravatar: efac9646dd5e3a3076bb1ede41762b3f
+kaiszac:
+  name: Zach Kaiser
+  bio: Architect for the Financials and Billing domain and outdoor enthusiast.
+  gravatar: ee3aecf9d2506bc82681e47bc6ed739d
+  web: https://www.linkedin.com/in/zach-kaiser-476ab343
+cougchr:
+  name: Chris Coughlin
+  bio: Software Engineer II, IT Data Science
+  web: http://www.linkedin.com/in/chrisrcoughlin
