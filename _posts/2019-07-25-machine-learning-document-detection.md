@@ -14,7 +14,7 @@ Today, the logistics industry runs on paperwork and as members of the IT Billing
 
 One challenge is that there are different rules that the system needs to apply based on what type of document is coming in to our system. In order to do that as a part of our current process, we have billing representatives 'Index' the document by looking at an image of the document and entering if it's a bill of lading, carrier invoices, weight ticket or other type of document as well as the fields pertinent to that specific document type (i.e. a carrier invoice would have an invoice amount and an invoice date).
 
-If we could automatically pull any information from the document or even just know what type of document we're looking at ahead of time we could make our document processing even more efficient and every second saved over the course of x documents a year would bring huge savings for our process. 
+If we could automatically pull any information from the document or even just know what type of document we're looking at ahead of time, we could make our document processing even more efficient. Every second saved over the course of 26 million documents a year would bring huge savings for our process.
 
 ## Enter Data Science
 
