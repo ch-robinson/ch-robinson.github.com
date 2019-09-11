@@ -3,7 +3,6 @@
 jddefauw:
   name: JD DeFauw
   bio: Enterprise Architect with a passion for applying the principles of Agile and DevOps to deliver value to end users.
-  web:
   gravatar: 356447a774631efe613cf9b3383dd657
 pattertj:
   name: Tyler Patterson
@@ -13,7 +12,7 @@ pattertj:
   gravatar: b13aa0f1f92243e54b112d1b93c3d5fa
 brianmitchell:
   name: Brian Mitchell
-  bio: Software Engineer II (and emoji lover 👋) on the Customer Facing Analytics team.
+  bio: Software Engineer III (and emoji lover 👋) on the Customer Facing Analytics team.
   gravatar: 1d04fd9de51bae4317d79e34820943a4
   web: https://brianm.me
 miketintes:
@@ -131,3 +130,8 @@ cougchr:
 trojchr:
   name: Christopher Trojan
   bio: Software Engineer currently working on the Corporate Finance Delivery Team.
+steldan:
+  name: Dan Stelljes
+  bio: Developer for the Applied Research team.
+  gravatar: 367961c5c04dde185dd615b7e81353c8
+  web: https://github.com/dstelljes
