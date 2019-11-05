@@ -4,3 +4,8 @@
     Our mobile team applies tools and practices to achieve the desired results of our mobile apps while conserving the
     user's battery. Our mission is to provide value to our end users while maintaining an undetectable impact to their
     battery and data usage.
+- id: dotnet-avro
+  title: Chr.Avro
+  description:
+    C.H. Robinson maintains an open source Avro serialization library for .NET. This series of posts explores why we
+    made it and how it works.
