@@ -7,6 +7,7 @@ categories: technology
 excerpt: At C.H. Robinson, we love open source, and we're continuing to give back by releasing a foundational component of our event-driven messaging platform.
 tags: [Open Source]
 disclaimer: true
+series: dotnet-avro
 ---
 
 At C.H. Robinson, we love open source, and we're continuing to give back by releasing a foundational component of our event-driven messaging platform, [Chr.Avro](https://github.com/ch-robinson/dotnet-avro)! We use this library throughout the organization to transmit data between applications.
