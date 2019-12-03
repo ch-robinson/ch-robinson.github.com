@@ -54,7 +54,7 @@ nickgoble:
   web: https://www.linkedin.com/in/goblena/
 maikim:
   name: Kim Mai
-  bio: Software Engineer II, Enterprise Data Warehouse - Global Forwarding
+  bio: Software Engineer II with the Customer Facing Analytics team and jigsaw puzzle enthusiast.
   gravatar: 28eb02fc2b43b993c6ec5a17c0470f8f
 fullama:
   name: Amanda Fullan
@@ -135,3 +135,17 @@ steldan:
   bio: Developer for the Applied Research team.
   gravatar: 367961c5c04dde185dd615b7e81353c8
   web: https://github.com/dstelljes
+hrommic:
+  name: Michelle Hromatka
+  bio: Former Software Engineer, current Business Analyst and W.I.T. Community Outreach Liaison, future human who actually
+    puts away her clean laundry the same day it is folded.  When not battling bad laundry habits or working, Michelle can be
+    found baking, reading, researching travel destinations, watching Grey's Anatomy reruns, or coaching lacrosse.
+  gravatar: 6be72cdb2ca5713f0bd5c074062fc830
+  web: https://www.linkedin.com/in/michellehromatka
+smitalic:
+  name: Alicia Smith
+  bio: Software Engineer for Shared Billing & Women in Technology President at C.H. Robinson. Full time mom of two boys
+    (Giovanni 6 and Bruno 2) and keeper of an adult male of 7 years, John. When I am not picking up after them, I love music,
+    cooking and bingeing depressing Netflix documentaries.
+  gravatar: db8b66747767f06c7bfa64a74cacd2f2
+  web: https://www.linkedin.com/in/alicia-smith-740b9655/
